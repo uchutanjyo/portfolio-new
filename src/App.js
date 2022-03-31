@@ -20,12 +20,17 @@ return (
              
         <nav className='Nav'>
             <div className='Nav-links'>
-                
-                    <Link to="/" id='home' className='Navbar-link'>Home</Link>
-                     <Link to="/About" className='Navbar-link'>About</Link>
-                    <Link to="/Projects" className='Navbar-link'>Projects</Link>
-                    <Link to="/Skills" className='Navbar-link'>Skills</Link>
-                    <Link to="/Contact" className='Navbar-link'>Contact</Link>
+            
+                   <div className="nav-item"> <Link to="/" id='/home' className='Navbar-link'>About</Link>
+                    <img src={require('./about.png')} />
+                     </div>
+                    <div className="nav-item"><Link to="/Projects" className='Navbar-link'>Projects</Link>
+                     <img src={require('./projects.png')} />
+                     </div>
+                   <div className="nav-item"> <Link to="/Skills" className='Navbar-link'>Skills</Link>
+                    <img src={require('./skills.png')} /></div>
+                   <div className="nav-item"> <Link to="/Contact" className='Navbar-link'>Contact</Link>
+                    <img src={require('./contact.png')} /></div>
                                         <Link to="/" className='Navbar-link'></Link>
 
                     
@@ -35,17 +40,19 @@ return (
         </nav>
      
     </div>
-          <div className='Main-banner-background'>
-         
-</div>
 
 
-<div className='background-title'>
+
+<div className='background-title-1'>
       
           <h1 className='Title'></h1>
                                           </div>  
+<div className='background-title-2'>  <h1 className='Title'></h1>
+</div>
+                                          
                                           <div className='right-background-title'>          <h1 className='Title'></h1>
 </div>
+
     <Routes>
 <Route  path="/" element={<Home />} >
 </Route>

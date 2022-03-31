@@ -5,7 +5,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: whitesmoke;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -13,10 +12,11 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   font-family: 'Roboto Condensed', sans-serif;
-  background: linear-gradient(-75deg, #ece7e6, #afa8aa, #cec5c3, #8c8c8c);
+  background: linear-gradient(-75deg, #030811, #0c182e, #1c2343, #080e2d);
   background-size: 400% 400%;
   -webkit-animation: gradient 20s ease infinite;
           animation: gradient 20s ease infinite;
+  color: #dadada;
 }
 
 @-webkit-keyframes gradient {
@@ -44,53 +44,55 @@ body {
 }
 
 .Nav {
-  background-color: rgba(11, 3, 87, 0.9);
-  width: 100vw;
-  height: 2em;
-  text-align: right;
+  background-color: #32438d;
   left: 0;
   position: fixed;
-  top: 0;
+  max-width: 9em;
+  min-height: 100vh;
   z-index: 20;
   padding-top: 15px;
   padding-bottom: 15px;
   z-index: 3;
   font-size: .7em;
-  border-bottom-left-radius: 50%;
+  border-bottom-left-radius: 5%;
   border-bottom-right-radius: 50%;
 }
 
 .Nav-links {
-  right: 20;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.Navbar-link {
-  margin-right: 2em;
-}
-
-.Navbar-link::before {
-  background: rgba(36, 35, 35, 0.9);
-  content: "";
-  height: .5em;
-  width: .5em;
-  bottom: -1px;
-  -webkit-transform: translate(-50px);
-          transform: translate(-50px);
-  position: absolute;
-  -webkit-transition: 0.7s;
-  transition: 0.7s;
+.nav-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 6em;
+  height: 6em;
+  background-color: #040a23;
+  margin: 1em;
+  padding: 1em;
   border-radius: 5%;
-  z-index: 10;
-  cursor: none;
 }
 
-a:hover + .Navbar-link::before {
-  -webkit-transform: translateX(-70px);
-          transform: translateX(-70px);
-}
-
-#home::before {
-  display: none;
+.nav-item img {
+  margin-top: 1em;
+  width: 1em;
 }
 
 .Nav a {
@@ -99,70 +101,121 @@ a:hover + .Navbar-link::before {
   font-size: 2em;
 }
 
-.background-title {
+.background-title-1 {
   position: fixed;
-  max-width: 6em;
+  max-width: 8em;
   min-height: 100vh;
   left: 0;
   bottom: 5;
-  background-image: url("../assets/mite-portrait.png");
   background-size: cover;
-  z-index: 1;
+  z-index: 10;
   opacity: 60%;
 }
 
-.right-background-title {
-  position: fixed;
-  max-width: 6em;
-  min-height: 100vh;
-  right: 0;
-  background-image: url("../assets/mite-portrait.png");
-  background-size: cover;
-  z-index: 1;
-}
-
-.Main-banner-background {
-  left: 0;
-  top: 0;
-  min-height: 4em;
-  position: fixed;
-  min-width: 100%;
-  background-image: url("../assets/mite-3.png");
-  background-size: cover;
-  cursor: pointer;
-  z-index: 2;
-  border: 0px;
-  border-bottom-left-radius: 90%;
-  border-bottom-right-radius: 50%;
-  opacity: calc(70%);
-}
-
-header {
+.section {
   background: black;
-  margin-top: 7em;
+  margin-top: 2em;
   background-color: rgba(85, 65, 104, 0.1);
-  border-bottom-right-radius: 50%;
-  border-top-left-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
   padding: 1em;
-  padding-bottom: 4em;
-  height: 80vh;
+  height: 75vh;
   width: 50vw;
-  text-align: center;
+  text-align: left;
 }
 
-header h1 {
+.section h1 {
+  margin-top: 2em;
   font-family: Poppins;
   letter-spacing: 5px;
-  margin-bottom: 1em;
+  margin-bottom: .2em;
+  font-size: 2em;
 }
 
-.line {
+.underline {
   font-size: 1.1em;
+  background-color: red;
+  width: 5em;
+  height: .5em;
+  content: "";
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-header {
+  margin-top: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+.header-info {
+  width: 20em;
+  height: 6.5em;
+  padding: 1em;
+  margin-top: 1em;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  background-color: #283981;
+}
+
+.info-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+.info-section img {
+  margin-right: 2em;
+  height: 1em;
 }
 
 .info {
-  padding-left: 3em;
-  padding-right: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 1em;
+  font-size: 1.3em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.info img {
+  margin-right: 2em;
+  height: 1em;
 }
 
 .Title {
@@ -247,23 +300,8 @@ header h1 {
   font-size: 15px;
 }
 
-.Portraits {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  z-index: 1;
-  position: relative;
-}
-
 .portrait {
   height: 10em;
-  border: 8px solid rgba(8, 18, 156, 0.51);
   border-radius: 75%;
 }
 
@@ -375,6 +413,10 @@ header h1 {
 
 /* effects */
 .Nav a:hover {
+  opacity: 0.7;
+}
+
+.nav-item:hover {
   opacity: 0.7;
 }
 

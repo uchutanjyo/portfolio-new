@@ -11,7 +11,7 @@ const Contact = () => {
 
       <h1 className='header'> Contact Mite</h1>
       <Paragraph>
-        email: mite.hole@gmail.com
+        email: matt.engerer@aol.com
       </Paragraph>
     </Main>
   );
