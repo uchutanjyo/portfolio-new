@@ -127,7 +127,7 @@ body {
       -ms-flex-align: left;
           align-items: left;
   padding: 1em;
-  height: 75vh;
+  height: 85vh;
   width: 50vw;
   text-align: left;
 }
@@ -158,6 +158,11 @@ body {
           flex-direction: column;
 }
 
+.portrait {
+  height: 11em;
+  border-radius: 75%;
+}
+
 .section-header {
   margin-top: 2em;
   display: -webkit-box;
@@ -173,10 +178,10 @@ body {
 }
 
 .header-info {
-  width: 20em;
-  height: 6.5em;
+  width: 23em;
+  height: 8em;
   padding: 1em;
-  margin-top: 1em;
+  margin-top: .5em;
   margin-left: 5%;
   margin-bottom: 5%;
   background-color: #283981;
@@ -218,22 +223,46 @@ body {
   height: 1em;
 }
 
-.Title {
-  max-width: 20%;
-  font-family: 'Chakra Petch', sans-serif;
-  background-color: rgba(238, 238, 238, 0.2);
-  font-size: 2em;
-  color: rgba(12, 0, 0, 0.8);
-  margin-left: 0.4em;
-  margin-top: 1em;
-  -webkit-transform: rotate(-30deg);
-          transform: rotate(-30deg);
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
 }
 
-/* Main component */
-.Main {
-  position: relative;
-  margin-top: 80px;
+.icons button {
+  margin-right: 5em;
+}
+
+#github {
+  background-image: url("github.png");
+  width: 2.4em;
+  height: 2.4em;
+  background-color: #283981;
+  content: "";
+  border: none;
+}
+
+#linkedin {
+  background-image: url("linkedin.png");
+  width: 2.4em;
+  height: 2.4em;
+  background-color: #283981;
+  content: "";
+  border: none;
+}
+
+.contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -241,68 +270,24 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: left;
-      -ms-flex-align: left;
-          align-items: left;
-  min-height: 75vh;
-  max-height: 75vh;
-  min-width: 50vw;
-  max-width: 50vw;
-  overflow: auto;
-  border: 1px dotted;
-  padding: 1em;
-  color: #464646;
-  background-size: cover;
-  z-index: 10;
-  border-radius: 5px;
-  background-color: rgba(227, 225, 230, 0.2);
-  z-index: 10;
 }
 
-.Main img {
-  text-align: center;
+.contact button {
+  width: 5em;
+  margin-top: 2em;
 }
 
-.post {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: left;
-      -ms-flex-align: left;
-          align-items: left;
-  margin-bottom: 4em;
-  font-size: 23px;
+#name {
+  width: 50%;
 }
 
-.Post-date {
-  color: #c24d4d;
+#email {
+  width: 50%;
 }
 
-.News {
-  width: 20em;
-  border: 1px solid;
-}
-
-.paragraph {
-  color: #555557;
-  text-align: left;
-  max-width: 90%;
-}
-
-/* About */
-.about {
-  margin-left: 2em;
-  margin-right: 2em;
-  font-size: 15px;
-}
-
-.portrait {
+#message {
+  width: 50%;
   height: 10em;
-  border-radius: 75%;
 }
 
 .icon {
@@ -352,6 +337,8 @@ body {
 /* Button */
 .button {
   max-width: 8em;
+  border-radius: 5%;
+  background-color: #32438d;
 }
 
 /* Modal */
@@ -418,6 +405,8 @@ body {
 
 .nav-item:hover {
   opacity: 0.7;
+  width: 65%;
+  cursor: pointer;
 }
 
 .album img:hover {

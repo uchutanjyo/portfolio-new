@@ -20,19 +20,24 @@ const Home = () => {
         <div className="header-info">
            <div className="info-section"><img src={require('./about.png')} /> Matthew Engerer</div>
              <div className="info-section"><img src={require('./location.png')} /> Toronto, ON</div>
-              <div className="info-section"><img src={require('./projects.png')} /> Front-end web developer</div>
+              <div className="info-section"><img src={require('./projects.png')} /> Front-end web developer specializing in single-page React applications.</div>
 
         </div>
        
          
         </div>
-    <div className='info'>My passion for building websites started in the early 2000s. Beginning with website-builders such as Maxpages and Geocities, I eventually moved on to creating my own pages using HTML and CSS. I vividly remember looking forward to Friday nights in late elementary school so I could 'work on my website'. Unfortunately, my interest waned around the start of highschool, and remained dormant until very recently in my life.
+    <div className='info'>I've been passionate about building web pages from an early age, but only considered web development as a career more recently in life. Since realizing that this is in fact the path I've been looking for all along, I've developed an even stronger passion for creating web apps with clean code, minimal design, and intuitive user experiences.
     </div>
-<div className="info">Before and after graduating from UOT in 2016 I worked in a wide variety of professions. It was only after my return from a working holiday in Japan (premature due to COVID-19) and a physical injury that  I began to research Web Development as a potential career path for myself. Over the last year and a half, I have gradually built up my skills in HTML, CSS (incl. SASS), Javascript (ES6) and more recently, React. My main passion is writing clean code resulting in responsive single-page applications. I am very excited to find my first job as a developer!</div>
-  
+<div className="info">I'd describe myself as organized, detail-oriented, hard-working, creative and easy-going. A  wide range of work and life experience has shaped me into a resilient person, versatile in every role I've undertaken. Web development is the next big challenge in my life; I'm very excited to get started in my first position!   </div>
+
+   <div className='icons'>
+
+<button id="github" ></button>
+<button id="linkedin" ></button>
+ </div>
+
     </div>
     
- 
 
 
     </>

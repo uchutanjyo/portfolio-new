@@ -1,19 +1,22 @@
 import React from 'react';
-// import Main from './components/Main'
 import Main from './components/Main'
+import Post from './components/Post'
 import Paragraph from './components/Paragraph'
-
+import ContactForm from './components/ContactForm';
 
 
 const Contact = () => {
   return (
-   < Main>
+    <>
+     <div className='section'>
+        <div className="header">
+      <h1>Contact me</h1>
+    <div className="underline"></div>
+    </div>
+    <ContactForm></ContactForm>
+ </div>
 
-      <h1 className='header'> Contact Mite</h1>
-      <Paragraph>
-        email: matt.engerer@aol.com
-      </Paragraph>
-    </Main>
+    </>
   );
 };
 
