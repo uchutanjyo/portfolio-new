@@ -13,15 +13,10 @@ const Projects = () => {
       <h1>My projects</h1>
     <div className="underline"></div>
     </div>
-     <div className="section-header">
-       <section className='Portraits'>
-       
-        </section>
-        <div className="header-info">
-          
-
-        </div>
-       
+     <div className="projects-container">
+    <div className="project-container">fa</div>
+    <div className="project-container">fa</div>
+        <div className="project-container">fa</div>
          
         </div>
     <div className='info'>

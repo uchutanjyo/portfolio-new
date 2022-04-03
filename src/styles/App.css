@@ -113,8 +113,8 @@ body {
 }
 
 .section {
-  background: black;
   margin-top: 2em;
+  margin-bottom: 2em;
   background-color: rgba(85, 65, 104, 0.1);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -127,7 +127,8 @@ body {
       -ms-flex-align: left;
           align-items: left;
   padding: 1em;
-  height: 85vh;
+  min-height: 85vh;
+  height: auto;
   width: 50vw;
   text-align: left;
 }
@@ -238,19 +239,42 @@ body {
       -ms-flex-direction: row;
           flex-direction: row;
   width: 100%;
+  margin-top: 2em;
+  display: flex;
 }
 
 .icons button {
   margin-right: 5em;
 }
 
+.icons button:hover {
+  opacity: 0.7;
+  border-radius: 18%;
+}
+
 #github {
   background-image: url("github.png");
+  margin-right: 3em;
   width: 2.4em;
   height: 2.4em;
   background-color: #283981;
   content: "";
   border: none;
+  outline-style: none;
+  cursor: pointer;
+  position: relative;
+}
+
+#github-info {
+  display: none;
+}
+
+#github:hover + #github-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1em;
+  height: 1em;
 }
 
 #linkedin {
@@ -260,6 +284,75 @@ body {
   background-color: #283981;
   content: "";
   border: none;
+  outline-style: none;
+  cursor: pointer;
+  position: relative;
+}
+
+#linkedin-info {
+  display: none;
+}
+
+#linkedin:hover + #linkedin-info {
+  display: block;
+  width: 1em;
+  height: 1em;
+}
+
+.skills-info {
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+.skills-container {
+  margin-top: 1em;
+  height: 98%;
+  width: 99.7%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 33% 33% 33%;
+      grid-template-columns: 33% 33% 33%;
+  row-gap: 0em;
+  overflow: inherit;
+}
+
+.skill-container {
+  width: 90%;
+  height: 8.5em;
+  margin: 1em;
+  background-color: rgba(85, 65, 104, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skill-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: .8em;
+}
+
+.skill-title {
+  font-size: 1.5em;
+  background-color: #283981;
 }
 
 .contact {
@@ -270,11 +363,18 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-top: 2em;
 }
 
 .contact button {
+  font-size: 1.4em;
   width: 5em;
-  margin-top: 2em;
+  margin-top: 1em;
+  background-color: #929292;
+}
+
+.contact input {
+  margin-bottom: 1em;
 }
 
 #name {

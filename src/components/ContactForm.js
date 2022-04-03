@@ -4,7 +4,7 @@ import React from 'react';
 const ContactForm = ({children}) => {
   return (
 
-    <div >
+
 
 <form className='contact'action="submit">
     <label htmlFor="name">Name</label>
@@ -15,7 +15,7 @@ const ContactForm = ({children}) => {
     <input type="text" id='message'/>
     <button action='submit'>Submit</button>
 </form>
-    </div>
+ 
   );
 };
 

@@ -100,17 +100,19 @@ border-bottom-right-radius: 50%;
 
 
 .section {
-    background: black;
     margin-top: 2em;
+            margin-bottom: 2em;
+
         background-color: rgba(85, 65, 104, 0.1);
    display: flex;
    flex-direction: column;
    align-items: left;
                 padding: 1em;
-                
-            height: 85vh;
+                min-height: 85vh;
+            height: auto;
         width: 50vw;
         text-align: left;
+
 h1{
     margin-top: 2em;
     font-family: Poppins;
@@ -191,19 +193,43 @@ h1{
 .icons {
     @include flexCenter(row);
     width: 100%;
-    
+    margin-top: 2em;
+    display: flex;
     button {
         margin-right: 5em;
     }
+    button:hover {
+    opacity: 0.7;
+    border-radius: 18%;
+   
+}
+
+
+
 
 }
 #github {
     background-image: url("github.png");
+    margin-right: 3em;
     width: 2.4em;
     height: 2.4em;
     background-color: #283981;
     content: "";
-    border: none
+    border: none;
+    outline-style: none;
+    cursor: pointer;
+    position: relative
+}
+
+#github-info {
+    display: none;
+}
+
+#github:hover+#github-info {
+    display:flex;
+    width: 1em;
+    height: 1em;
+    
 }
 
 #linkedin {
@@ -212,24 +238,99 @@ h1{
     height: 2.4em;
     background-color: #283981;
     content: "";
-    border: none
+    border: none;
+    outline-style: none;
+        cursor: pointer;
+    position: relative
+
+
 }
+
+#linkedin-info {
+    display: none;
+}
+
+#linkedin:hover+#linkedin-info {
+    display: block;
+    width: 1em;
+    height: 1em;
+    
+}
+
+
+// Skills
+.skills-info {
+margin-right: 1em;
+margin-left: 1em;
+
+
+
+}
+
+.skills-container {
+    margin-top:1em;
+    height: 98%;
+    width: 99.7%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+     
+          row-gap: 0em;
+         overflow:inherit
+
+
+
+}
+
+.skill-container {
+width: 90%;
+height: 8.5em;
+margin: 1em;
+
+ background-color: rgba(85, 65, 104, 0.1);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.skill-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: .8em;
+
+}
+
+.skill-title {
+    font-size: 1.5em;
+      background-color: #283981
+}
+
 
 
 // Contact
 .contact {
     display: flex;
     flex-direction: column;
+    margin-top: 2em;
     button {
+        font-size: 1.4em;
         width: 5em;
-        margin-top: 2em;
+        margin-top: 1em;
+        background-color: rgb(146, 146, 146);
+
     }
-    
+   input {
+    margin-bottom: 1em
 }
+
+}
+
 
 #name {
 
 width: 50%;
+
 }
 
 #email {
