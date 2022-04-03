@@ -21,18 +21,19 @@ return (
         <nav className='Nav'>
             <div className='Nav-links'>
             
-                   <div className="nav-item"> <Link to="/" id='/home' className='Navbar-link'>About</Link>
-                    <img src={require('./assets/about.png')} />
-                     </div>
-                    <div className="nav-item"><Link to="/Projects" className='Navbar-link'>Projects</Link>
-                     <img src={require('./assets/projects.png')} />
-                     </div>
-                   <div className="nav-item"> <Link to="/Skills" className='Navbar-link'>Skills</Link>
-                    <img src={require('./assets/skills.png')} /></div>
-                   <div className="nav-item"> <Link to="/Contact" className='Navbar-link'>Contact</Link>
-                    <img src={require('./assets/contact.png')} /></div>
-                                        <Link to="/" className='Navbar-link'></Link>
+                   <Link to="/" id='/home' className='Navbar-link'> <div className="nav-item">
+                   <img src={require('./assets/about.png')} />About   </div></Link>
+                  
+                  <Link to="/Projects" id='/projects' className='Navbar-link'> <div className="nav-item">
+                   <img src={require('./assets/projects.png')} />Projects   </div></Link>
 
+                  <Link to="/Skills" id='/skills' className='Navbar-link'> <div className="nav-item">
+                   <img src={require('./assets/skills.png')} />Skills   </div></Link>
+
+                  <Link to="/Contact" id='/contact' className='Navbar-link'> <div className="nav-item">
+                   <img src={require('./assets/contact.png')} />Contact   </div></Link>
+                                       
+                
                     
             
 </div>

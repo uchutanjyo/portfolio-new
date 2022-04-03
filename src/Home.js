@@ -21,22 +21,19 @@ const Home = () => {
            <div className="info-section"><img src={require('./assets/about.png')} /> Matthew Engerer</div>
              <div className="info-section"><img src={require('./assets/location.png')} /> Toronto, ON</div>
               <div className="info-section"><img src={require('./assets/projects.png')} /> Front-end web developer specializing in single-page React applications.</div>
-
         </div>
        
          
         </div>
     <div className='info'>I've been passionate about building web pages from an early age, but only considered web development as a career more recently in life. Since realizing that this is in fact the path I've been looking for all along, I've developed an even stronger passion for creating web apps with clean code, simple yet effective design, and intuitive user experiences.
     </div>
-<div className="info">I'd describe myself as organized, detail-oriented, hard-working, creative and easy-going. I am comfortable with meeting tight deadlines and working under pressure.  A  wide range of work and life experience has shaped me into a resilient person, versatile in every role I've undertaken. I consider Web development to ne the next big challenge in my life; I'm very excited to get started in my first position!   </div>
+<div className="info">I'd describe myself as organized, detail-oriented, hard-working, creative and easy-going. I am comfortable with meeting tight deadlines and working under pressure.  A  wide range of work and life experience has shaped me into a resilient person, versatile in every role I've undertaken. I consider Web development to be the next big challenge in my life; I'm very excited to get started in my first position!   </div>
 
    <div className='icons'>
 
 <div className="icon-container">
 <form action="https://github.com">
- 
 <button id="github" ></button>
-
 </form>
 {/* <div id="github-info"><h6 >check out my code</h6></div> */}
 </div>
