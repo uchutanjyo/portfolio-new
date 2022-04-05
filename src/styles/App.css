@@ -455,6 +455,19 @@ body {
   font-size: 1.5em;
 }
 
+.contact-info {
+  font-size: 1.2em;
+}
+
+.email {
+  color: red;
+}
+
+.form-container {
+  padding: 1em;
+  font-size: 1.2em;
+}
+
 .contact {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -464,30 +477,24 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-top: 2em;
+  width: 70%;
 }
 
 .contact button {
-  font-size: 1.4em;
+  font-size: 1.2em;
+  color: white;
   width: 5em;
   margin-top: 1em;
-  background-color: #929292;
+  background-color: rgba(130, 34, 221, 0.1);
+  border-radius: 4%;
 }
 
 .contact input {
   margin-bottom: 1em;
 }
 
-#name {
-  width: 50%;
-}
-
-#email {
-  width: 50%;
-}
-
 #message {
-  width: 50%;
-  height: 10em;
+  height: 15em;
 }
 
 .icon {
@@ -599,11 +606,6 @@ body {
 }
 
 /* effects */
-.Nav a:hover {
-  opacity: 0.9;
-  width: 43%;
-}
-
 .album img:hover {
   opacity: 0.6;
   border-radius: 30%;
@@ -614,7 +616,7 @@ body {
     top: 0;
     min-width: 100vw;
     max-width: 100vw;
-    min-height: 7vh;
+    min-height: 10vh;
     max-height: 8vh;
   }
   .Nav-links {
@@ -622,6 +624,7 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    margin-top: 0em;
   }
   .nav-item {
     display: -webkit-box;
@@ -637,11 +640,11 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 4em;
+    width: 3em;
     height: 4em;
     background-color: #040a23;
     margin-top: 0em;
-    padding: 1em;
+    padding: .4em;
     border-radius: 5%;
   }
   .nav-item img {
@@ -651,7 +654,9 @@ body {
   .Nav a {
     text-decoration: none;
     color: #dadada;
-    font-size: 1em;
+    font-size: 1.3em;
+    margin: 1em;
+    border-right: 1px dotted #ffd5d5;
   }
   .section {
     display: -webkit-box;
@@ -665,6 +670,7 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     width: 90vw;
+    margin-left: -.5em;
   }
   .section-header {
     display: -webkit-box;
@@ -674,10 +680,26 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 98vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 85vw;
+  }
+  .header-info {
+    width: 22em;
+    margin-left: -.5em;
+  }
+  .portrait {
+    margin-bottom: 1em;
   }
   .projects-container {
-    width: 98vw;
+    width: 90vw;
+    margin-left: 2em;
+    margin-right: 1em;
+  }
+  .projects-container button {
+    margin-left: -10em;
+    margin-top: 18em;
   }
   .project-image {
     height: 20em;
@@ -702,6 +724,10 @@ body {
     opacity: 0.7;
     width: 65%;
     cursor: pointer;
+  }
+  .Nav a:hover {
+    opacity: 0.9;
+    width: 43%;
   }
 }
 /*# sourceMappingURL=App.css.map */

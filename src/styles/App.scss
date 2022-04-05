@@ -151,6 +151,8 @@ h1{
    align-items: left;
 }
 
+
+
 .header-info {
     width: 23em;
     height:8em;
@@ -380,15 +382,34 @@ align-items: center;
 
 
 // Contact
+
+.contact-info {
+    font-size: 1.2em;
+}
+.email {
+    color:rgb(255, 0, 0)
+}
+.form-container {
+  
+    padding: 1em;
+        font-size: 1.2em;
+
+
+}
+
 .contact {
     display: flex;
     flex-direction: column;
     margin-top: 2em;
+    width: 70%;
     button {
-        font-size: 1.4em;
+        font-size: 1.2em;
+        color:white;
         width: 5em;
         margin-top: 1em;
-        background-color: rgb(146, 146, 146);
+              background-color: rgba(130, 34, 221, 0.1);
+
+        border-radius: 4%;
 
     }
    input {
@@ -400,17 +421,17 @@ align-items: center;
 
 #name {
 
-width: 50%;
+
 
 }
 
 #email {
-width: 50%;
+
 }
 
 #message {
-width: 50%;
-height: 10em;
+
+height: 15em;
 }
 
 
@@ -513,11 +534,7 @@ height: 10em;
 }
 
 /* effects */
-.Nav a:hover {
-    opacity: 0.9;
-    width: 43%
-    
-}
+
 
 // .nav-item:hover {
 //     opacity: 0.7;
@@ -532,54 +549,30 @@ height: 10em;
 }
 
 
-
-// Might use later
-// a:hover+Navbar-link::before {
-//     transform: translateX(-70px);
-// }
-
-// #home::before {
-//     display: none
-// }
-
-// .Navbar-link::before {
-//     background: rgba(36, 35, 35, 0.9);
-//     content: "";
-//     height: .5em;
-//     width: .5em;
-//     bottom: -1px;
-//     transform: translate(-50px);
-//     position: absolute;
-//     transition: 0.7s;
-//     border-radius: 5%;
-//     z-index: 10;
-//     cursor: none
-// }
-
-    // border-bottom-right-radius: 50%;
-    //             border-top-left-radius: 50%;
-
+    // Media queries
+    // Smartphones
     @media screen and (max-width: 480px) {
         .Nav {
             top:0;
              min-width: 100vw;
               max-width: 100vw;
-    min-height: 7vh;
+    min-height: 10vh;
     max-height: 8vh;
+            
     
         }
 .Nav-links {
-     
     flex-direction: row;
+    margin-top: 0em;
    
 }
 .nav-item {
     @include flexCenter(column);
-    width: 4em;
+    width: 3em;
     height: 4em;
     background-color: #040a23;
     margin-top: 0em;
-     padding: 1em;
+     padding: .4em;
      border-radius: 5%;
      img {
        margin-top: 1em;
@@ -591,7 +584,9 @@ height: 10em;
 .Nav a {
     text-decoration: none;
     color: rgb(218, 218, 218);
-    font-size: 1em;
+    font-size: 1.3em;
+    margin: 1em;
+    border-right: 1px dotted rgb(255, 213, 213);
 }
 
 
@@ -601,19 +596,33 @@ display: flex;
    align-items: center;
 flex-direction: column;
 width: 90vw;
-
-
+margin-left: -.5em;
 }
 
 .section-header {
 display: flex;
 flex-direction: column;
-width: 98vw;
+align-items: center;
+width: 85vw;
+}
+
+.header-info {
+    width: 22em;
+    margin-left: -.5em;
+}
+
+.portrait {
+    margin-bottom: 1em;
 }
 
 .projects-container {
-    width: 98vw;
-
+    width: 90vw;
+    margin-left: 2em;
+        margin-right: 1em;
+    button {
+        margin-left: -10em;
+        margin-top: 18em;
+    }
 }
 
 .project-image {
@@ -644,5 +653,11 @@ img {
         &.nav-item:hover {
  opacity: 0.7;
     width: 65%;
+
     cursor: pointer
-        } }
+        } 
+    .Nav a:hover {
+    opacity: 0.9;
+    width: 43%
+    
+}}

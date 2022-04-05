@@ -15,7 +15,7 @@ const Skills = () => {
     </div>
 <div className='skills-info'> 
 <div> I'm currently stronger in front-end development, but am working to become more knowledgable in back-end technologies with the goal of eventually being able to call myself a full-stack developer.</div> 
-<div> Whether it's furthering my knowledge in the following technologies or learning brand new ones, I'm always striving to learn more. What's next on my list? Whichever technology is required for the job! </div> </div>
+<div> Whether it's furthering my knowledge of the following technologies and tools or learning brand new ones, I'm always striving to learn more. What's next on my list? Whichever tool is required for the job! </div> </div>
      <div className="skills-container">
     <div className="skill-container">
       <div className="skill-icon">
