@@ -551,7 +551,7 @@ height: 15em;
 
     // Media queries
     // Smartphones
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 1060px) {
         .Nav {
             top:0;
              min-width: 100vw;
@@ -641,13 +641,22 @@ img {
     margin: 1em;
     width: 1em;
 }
-
+}
 }
 
-  
+@media screen and (min-width: 540px) and (max-width: 1060px) {
+.project-image {
+    max-width: 100%;
+      height: 25em;
+      padding-bottom: 2em;
+       padding-top: 2em;
+   img {
+       height: 20em;
+       
+   }
 }
 
-
+}
 
  @media all and (min-width: 600px) {
         &.nav-item:hover {

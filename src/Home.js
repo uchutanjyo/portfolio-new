@@ -29,6 +29,7 @@ const Home = () => {
     </div>
 <div className="info">I'd describe myself as organized, detail-oriented, hard-working, creative and easy-going. I am comfortable with meeting tight deadlines and working under pressure.  A  wide range of work and life experience has shaped me into a resilient person, versatile in every role I've undertaken. I consider Web development to be the next big challenge in my life; I'm very excited to get started in my first position!   </div>
 
+<div className="info">When I'm not coding, I make music, improve my 日本語, and spend time outside as much as possible.</div>
    <div className='icons'>
 
 <div className="icon-container">

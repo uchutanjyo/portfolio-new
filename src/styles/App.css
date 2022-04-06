@@ -611,7 +611,7 @@ body {
   border-radius: 30%;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1060px) {
   .Nav {
     top: 0;
     min-width: 100vw;
@@ -716,6 +716,18 @@ body {
   .project-tech img {
     margin: 1em;
     width: 1em;
+  }
+}
+
+@media screen and (min-width: 540px) and (max-width: 1060px) {
+  .project-image {
+    max-width: 100%;
+    height: 25em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+  }
+  .project-image img {
+    height: 20em;
   }
 }
 
