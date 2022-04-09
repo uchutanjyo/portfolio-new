@@ -1,7 +1,5 @@
 import React from 'react';
-import Main from './components/Main'
-import Post from './components/Post'
-import Paragraph from './components/Paragraph'
+
 
 
 const Skills = () => {
