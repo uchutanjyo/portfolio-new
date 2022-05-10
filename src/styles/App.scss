@@ -351,9 +351,6 @@ div {
     grid-template-columns: 33% 33% 33%;
           row-gap: 0em;
          overflow:inherit
-
-
-
 }
 
 .skill-container {
@@ -380,6 +377,12 @@ align-items: center;
     font-size: 1.5em;
 }
 
+.skill-info {
+    margin-top: .5em;
+    margin-bottom: .5em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
 
 
 // Contact
@@ -420,15 +423,6 @@ align-items: center;
 }
 
 
-#name {
-
-
-
-}
-
-#email {
-
-}
 
 #message {
 
@@ -449,6 +443,9 @@ height: 15em;
     background-color: #32438d;
 }
 
+.hidden {
+    display: hidden
+}
 
 /* effects */
 

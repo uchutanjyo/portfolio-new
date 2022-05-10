@@ -456,6 +456,13 @@ body {
   font-size: 1.5em;
 }
 
+.skill-info {
+  margin-top: .5em;
+  margin-bottom: .5em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
 .contact-info {
   font-size: 1.2em;
 }
