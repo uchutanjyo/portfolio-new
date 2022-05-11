@@ -30,15 +30,13 @@ const Home = () => {
    <div className='icons'>
 
 <div className="icon-container">
-<form action="https://github.com">
+<form action="https://github.com/uchutanjyo">
 <button id="github" ></button>
 </form>
-{/* <div id="github-info"><h6 >check out my code</h6></div> */}
 </div>
 <div className="icon-container">
-<form action="https://linkedin.com">
+<form action="https://www.linkedin.com/in/matthew-engerer-143960238/">
 <button id="linkedin" ></button>
-{/* <div id="linkedin-info"><h6>and my Linkedin profile</h6></div> */}
 
 </form>
 </div>

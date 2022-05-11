@@ -25,9 +25,7 @@ const Skills = () => {
     <div className="skill-container">
            <div className="skill-icon">
         <img src={require('./assets/css.png')} />
-
           <div className="skill-title">CSS3</div>
-         <div className="skill-info"> Responsive Design, Flexbox, Grid</div> 
           </div>
     </div>
 
@@ -49,21 +47,20 @@ const Skills = () => {
     <div className="skill-container">     <div className="skill-icon">
         <div><img src={require('./assets/react.png')}/></div> </div>
         <div className="skill-title">React.js</div>
-        <div className="skill-info">Functional components, hooks, React router</div>
             </div>
 
         <div className="skill-container">     <div className="skill-icon">
         <img src={require('./assets/nodejs.png')} />
       </div>
-      <div className="skill-title">Node JS</div>
-      <div className="skill-info">Express.js, EJS, REST APIs</div>
+      <div className="skill-title">Node.js</div>
+      <div className="skill-title">Express.js</div>
+
               </div>
 
           <div className="skill-container">     <div className="skill-icon">
         <img src={require('./assets/sql.png')} />
       </div>
       <div className="skill-title">MySQL</div>
-      <div className="skill-info"> MySQL Workbench, Sequelize</div>
            </div>
          
 

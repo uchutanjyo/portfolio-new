@@ -351,10 +351,16 @@ body {
   height: auto;
 }
 
+.project-image img:hover {
+  opacity: 80%;
+}
+
 .project-info {
-  height: 5.6em;
-  margin-top: -2.5em;
+  font-size: 1.2em;
+  max-height: 8em;
   width: 100%;
+  margin-top: -1em;
+  padding-bottom: .6em;
   background-color: rgba(85, 65, 104, 0.15);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -367,25 +373,47 @@ body {
 }
 
 .project-actual-info {
-  width: 80%;
-  padding: 1em;
-}
-
-.project-gotosite {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-left: 1px dotted;
+  max-width: 80%;
+  padding: 1em;
 }
 
-.project-gotosite button {
-  margin-left: 3em;
+.project-actual-info div {
+  padding: 1em;
+}
+
+.project-viewcode {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-left: 1px dotted;
+  margin-top: 2em;
+  text-align: center;
+}
+
+.project-viewcode img {
+  padding-top: 1em;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.project-viewcode a {
+  color: White;
+  text-decoration: none;
+}
+
+.project-viewcode a:hover {
+  text-decoration: underline;
+}
+
+.project-viewcode img:hover {
+  opacity: 90%;
 }
 
 .project-tech {
+  padding-top: 1em;
   height: 3.5em;
   width: 100%;
   background-color: rgba(85, 65, 104, 0.1);
@@ -512,9 +540,13 @@ body {
 
 /* Button */
 .button {
-  max-width: 8em;
+  min-width: 8em;
   border-radius: 5%;
   background-color: #32438d;
+}
+
+.hidden {
+  display: hidden;
 }
 
 /* effects */
@@ -612,17 +644,27 @@ body {
     height: 20em;
   }
   .project-info {
-    height: 8em;
+    max-height: 100%;
+  }
+  .project-actual-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .project-viewcode {
+    border-left: 0px;
+    margin-top: 5%;
   }
   .project-tech {
-    height: 5em;
+    max-height: 5em;
     width: 100%;
     background-color: rgba(85, 65, 104, 0.1);
     margin-top: 0em;
   }
   .project-tech img {
     margin: 1em;
-    width: 1em;
+    width: 2em;
   }
 }
 
