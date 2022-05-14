@@ -12,7 +12,7 @@ const Skills = () => {
     <div className="underline"></div>
     </div>
 <div className='skills-info'> 
-<div> I'm currently stronger in front-end development, but am working to become more knowledgable in back-end technologies with the goal of eventually being able to call myself a full-stack developer.</div> 
+<div> I'm calling myself a front-end developer for the sake of highlighting my main strength; however, my knowledge of back-end technologies is growing every day (see my most recent project).</div> 
 <div> Whether it's furthering my knowledge of the following technologies and tools or learning brand new ones, I'm always striving to learn more. What's next on my list? Whichever tool is required for the job! </div> </div>
      <div className="skills-container">
     <div className="skill-container">
@@ -61,6 +61,7 @@ const Skills = () => {
         <img src={require('./assets/mysql.png')} />
       </div>
       <div className="skill-title">MySQL</div>
+      <div className="skill-title">Sequelize</div>
            </div>
          
 

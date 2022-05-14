@@ -23,10 +23,13 @@ const Projects = () => {
     <div className="project-info">
     <div className="project-actual-info">
           <div>
-            Online shop selling essential items. Full-stack application with shopping cart functionality. Back-end created with Express.js, connected to MySQL database. Front-end created with React.
+            An online shop selling essential items. Full-stack application with shopping cart functionality. User can search for products by name (currently not by category - coming soon) and add items to (currently COMMUNAL) shopping cart. Items can also be deleted from the shopping cart.
+          </div>
+            
+           <div>This single-page app was created with React hooks, functional components, and React router. The front end makes Axios GET and POST requests to a REST API created with Express.js, connected to a MySQL database. Deployed to Netlify and Heroku.
           </div>
           <div>
-           <b> A few things are still a work in progress:</b> unique user shopping cart, user login/authentication, optimizing app speed, refactor to make use of React components as much as possible. 
+           <b> A few things are still a work in progress:</b> unique user shopping cart, user login/authentication, optimizing app speed (currently, state is not updating quickly enough when adding/deleting cart items), refactor to make use of React components as much as possible, add search-by-category functionality, 'Featured Product of the day' functionality, make mobile + higher resolution responsive. All coming very soon!  
       </div>
       </div>
     <div className="project-viewcode">
@@ -58,7 +61,7 @@ const Projects = () => {
           </div>
     <div className="project-viewcode">
     <form action="http://mitehole.bandcamp.com">
-    <a href="https://github.com/uchutanjyo/mite" title="view code">view code<img src={require('./styles/github.png')} /></a>
+    <a href="" title="view code">view code<img src={require('./styles/github.png')} /></a>
     </form>
     </div>
     </div>

@@ -419,7 +419,7 @@ body {
 .skills-info {
   margin-right: 1em;
   margin-left: 1em;
-  font-size: 1.1em;
+  font-size: 1.3em;
 }
 
 .skills-info div {
@@ -678,6 +678,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
+  font-size: 1em;
 }
 
 @media all and (min-width: 900px) {
