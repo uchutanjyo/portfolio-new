@@ -58,7 +58,7 @@ const Skills = () => {
               </div>
 
           <div className="skill-container">     <div className="skill-icon">
-        <img src={require('./assets/sql.png')} />
+        <img src={require('./assets/mysql.png')} />
       </div>
       <div className="skill-title">MySQL</div>
            </div>

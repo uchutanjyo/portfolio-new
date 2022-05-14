@@ -12,7 +12,7 @@ const Home = () => {
     </div>
      <div className="section-header">
        <section className='Portraits'>
-        <img src="https://f4.bcbits.com/img/0026884514_10.jpg"className="portrait" />
+       <img src={require('./assets/me.jpg')} className="portrait" />
         </section>
         <div className="header-info">
            <div className="info-section"><img src={require('./assets/about.png')} /> Matthew Engerer</div>
@@ -28,20 +28,26 @@ const Home = () => {
 
 <div className="info">When I'm not coding, I make music, improve my 日本語, and spend time outside as much as possible.</div>
    <div className='icons'>
-
+{/* github icon */}
 <div className="icon-container">
 <form action="https://github.com/uchutanjyo">
 <button id="github" ></button>
 </form>
 </div>
+{/* linkedin icon */}
 <div className="icon-container">
 <form action="https://www.linkedin.com/in/matthew-engerer-143960238/">
 <button id="linkedin" ></button>
-
 </form>
 </div>
- </div>
+{/* blogger icon */}
+<div className="icon-container">
+<form action="https://matte-webdevelopment.blogspot.com/">
+<button id="blogger"></button>
+</form>
+</div>
 
+ </div>
     </div>
     
 

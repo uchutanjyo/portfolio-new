@@ -26,7 +26,7 @@ const ContactForm = ({children}) => {
        <label htmlFor="name" >E-mail address</label>
        <input type="text"  id='email' name="user_email" />
        <label htmlFor="name"  name='message' >Message</label>
-    <input type="text" id='message' name="message"/>
+    <textarea  rows="10" id='message' name="message"/>
     <button action='submit' onClick={handleSubmit}>Submit</button>
 </form>
 
