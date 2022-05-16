@@ -13,6 +13,8 @@ const ContactForm = ({children}) => {
         'template_u8jvcfm',
         form.current,
         'CNPOcX_lOqJC8MPax')
+        alert('Your email has been sent.')
+        form.current.reset()
         .then(result => {
           console.log(result)
         }).catch(err => console.log(err))

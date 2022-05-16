@@ -12,7 +12,7 @@ const Home = () => {
     </div>
      <div className="section-header">
        <section className='Portraits'>
-       <img src={require('./assets/me.jpeg')} className="portrait" />
+       <div className='portrait'><img src={require('./assets/me.jpg')}  /></div>
         </section>
         <div className="header-info">
            <div className="info-section"><img src={require('./assets/about.png')} /> Matthew Engerer</div>

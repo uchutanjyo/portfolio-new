@@ -140,9 +140,15 @@ h1{
 
 .portrait {
 
-    height: 11em;
-    // border: .1px solid rgba(255, 59, 37, 0.868);
-    border-radius: 75%;
+    height: 12.3em;
+    width: 9em;
+    border-radius: 50%;
+    background-color: rgba(85, 65, 104, 0.2);
+    @include flexCenter(column);
+    img {
+        border-radius: 50%;
+        height: 96%;
+    }
 }
 
 .section-header {
