@@ -23,7 +23,7 @@ const Projects = () => {
     <div className="project-info">
     <div className="project-actual-info">
           <div>
-            An online shop selling essential items. Full-stack application with shopping cart functionality. User can search for products by name (currently not by category - coming soon) and add items to (currently COMMUNAL) shopping cart. Items can also be deleted from the shopping cart.
+            An online shop selling essential items. Full-stack application with shopping cart functionality. User can search for products by name/category and add items to (currently COMMUNAL) shopping cart. Items can also be deleted from the shopping cart.
           <br/><br/>
             
            This single-page app was created with React hooks, functional components, and React router. The front end makes Axios GET and POST requests to a REST API created with Express.js, connected to a MySQL database. Deployed to Netlify and Heroku.
