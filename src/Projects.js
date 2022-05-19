@@ -24,12 +24,12 @@ const Projects = () => {
     <div className="project-actual-info">
           <div>
             An online shop selling essential items. Full-stack application with shopping cart functionality. User can search for products by name (currently not by category - coming soon) and add items to (currently COMMUNAL) shopping cart. Items can also be deleted from the shopping cart.
-          </div>
+          <br/><br/>
             
-           <div>This single-page app was created with React hooks, functional components, and React router. The front end makes Axios GET and POST requests to a REST API created with Express.js, connected to a MySQL database. Deployed to Netlify and Heroku.
+           This single-page app was created with React hooks, functional components, and React router. The front end makes Axios GET and POST requests to a REST API created with Express.js, connected to a MySQL database. Deployed to Netlify and Heroku.
           </div>
           <div>
-           <b> A few things are still a work in progress:</b> unique user shopping cart, user login/authentication, optimizing app speed (currently, state is not updating quickly enough when adding/deleting cart items), refactor to make use of React components as much as possible, add search-by-category functionality, 'Featured Product of the day' functionality, make mobile + higher resolution responsive. All coming very soon!  
+           <b> A few things are still a work in progress:</b> unique user shopping cart, user login/authentication, optimizing app speed (currently, state is not updating quickly enough when adding/deleting cart items), refactor to make use of React components as much as possible, <strike>add search-by-category functionality, 'Featured Product of the day' </strike>, make mobile + higher resolution responsive. All coming very soon!  
       </div>
       </div>
     <div className="project-viewcode">
@@ -57,7 +57,7 @@ const Projects = () => {
     </div>
     <div className="project-info">
           <div className="project-actual-info">
-            Simple single-page React/React Router app for a musician website. Includes a built in music player (coming within a few days) and an album-viewer modal which displays detailed album information when opened.
+            Simple single-page React/React Router app for a musician website. Includes a built in music player (coming within a few days) and an album-viewer modal which displays detailed album information when opened. ** Will be deployed very soon **
           </div>
     <div className="project-viewcode">
     <form action="http://mitehole.bandcamp.com">
@@ -84,7 +84,7 @@ const Projects = () => {
 Multi-step meal planner app coded entirely with vanilla Javascript. User has option to create menu item in Step 1, add ingredients in Step 2, and confirm the menu item and choose a calendar date in Step 3. Ultimately, the user can create colour-coded meal plans by type (breakfast, lunch dinner) for the current month and view detailed daily info via a modal calendar. Data stored in local storage. *Currently undergoing refactoring*.         </div>
     <div className="project-viewcode">
     <form action="http://mitehole.bandcamp.com">
-    <a href="https://github.com/uchutanjyo/mite" title="view code">view code<img src={require('./styles/github.png')} /></a>
+    <a href="https://github.com/uchutanjyo/" title="view code">view code<img src={require('./styles/github.png')} /></a>
     </form>
     </div>
     </div>
