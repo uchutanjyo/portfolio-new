@@ -307,6 +307,8 @@ h1{
     display: flex;
 max-width: 80%;
 padding: 1em;
+border-right: 1px dotted;
+
 div {
     padding: 1em;
 }
@@ -314,7 +316,6 @@ div {
 
 .project-viewcode {
 display: flex;
-border-left: 1px dotted;
 margin-top: 2em;
 text-align: center;
 
@@ -557,20 +558,35 @@ width: 85vw;
   height: 20em;
 }
 
+
 .project-info {
     max-height: 100%;
+text-align: left;
+display: flex;
+flex-direction: column;
+width: 90%;
+padding-left:1.5em;
 }
 
 .project-actual-info {
-    flex-direction: column;
+    border-right: none;
+
+  
 
 }
-
 .project-viewcode {
-    border-left: 0px;
-    margin-top: 5%;
+        margin-top: 5%;
+        max-width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      border: 1px dotted;
+      padding-bottom: 1em;
+      text-align: center;
+
  
 }
+
 .project-tech {
         max-height:5em;
     width: 100%;
