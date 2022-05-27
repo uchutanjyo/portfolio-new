@@ -29,7 +29,7 @@ const Projects = () => {
            This single-page app was created with React hooks, functional components, and React router. The front end makes Axios GET and POST requests to a REST API created with Express.js, connected to a MySQL database. Deployed to Netlify and Heroku.
           </div>
           <div>
-           <b> A few things are still a work in progress:</b> cart total price, unique user shopping cart, user login/authentication, optimizing app speed (currently, state is not updating quickly enough when adding/deleting cart items), refactor to make use of React components as much as possible, <strike>add search-by-category functionality, 'Featured Product of the day' </strike>, make mobile + higher resolution responsive. All coming very soon!  
+           <b> A few things are still a work in progress:</b> cart total price, unique user shopping cart, user login/authentication, optimizing app speed (currently, state is not updating quickly enough when adding/deleting cart items), refactor to make use of React components as much as possible, <strike>add search-by-category functionality, 'Featured Product of the day', make mobile responsive</strike> + higher resolution responsive. All coming very soon!  
       </div>
       </div>
     <div className="project-viewcode">
@@ -113,7 +113,7 @@ const Projects = () => {
     <div className="project-info">
           <div className="project-actual-info">
           <div><b>*Currently NOT live, undergoing major refactoring*</b></div>
-Multi-step meal planner app coded entirely with vanilla Javascript. User has option to create menu item in Step 1, add ingredients in Step 2, and confirm the menu item and choose a calendar date in Step 3. Ultimately, the user can create colour-coded meal plans by type (breakfast, lunch dinner) for the current month and view detailed daily info via a modal calendar. Data stored in local storage.</div>
+Multi-step meal planner app coded entirely with vanilla Javascript. User has option to create menu item in Step 1, add ingredients in Step 2, and confirm the menu item and choose a calendar date in Step 3. The user can create colour-coded meal plans by type (breakfast, lunch dinner) for the current month and view detailed daily info via a modal calendar. Data stored in local storage.</div>
     <div className="project-viewcode">
     <form action="http://mitehole.bandcamp.com">
     <a href="https://github.com/uchutanjyo/" title="view code">view code<img src={require('./styles/github.png')} /></a>
