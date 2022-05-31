@@ -29,7 +29,7 @@ const Projects = () => {
            This single-page app was created with React hooks, functional components, and React router. The front end makes Axios GET and POST requests to a REST API created with Express.js, connected to a MySQL database. Deployed to Netlify and Heroku.
           </div>
           <div>
-           <b> A few things are still a work in progress:</b> cart total price, unique user shopping cart, user login/authentication, optimizing app speed (currently, state is not updating quickly enough when adding/deleting cart items), refactor to make use of React components as much as possible, <strike>add search-by-category functionality, 'Featured Product of the day', make mobile responsive</strike> + higher resolution responsive. All coming very soon!  
+           <b> A few things are still a work in progress:</b> cart total price, unique user shopping cart, user login/authentication, <strike>optimizing app speed (currently, state is not updating quickly enough when adding/deleting cart items)</strike>, refactor to make use of React components as much as possible, <strike>add search-by-category functionality, 'Featured Product of the day', make mobile responsive</strike> + higher resolution responsive. All coming very soon!  
       </div>
       </div>
     <div className="project-viewcode">
