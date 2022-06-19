@@ -31,13 +31,13 @@ const Home = () => {
           <div className="info">
             I've been passionate about building web pages from an early age, but
             only considered web development as a career more recently in life.
-            Since choosing this is as my career path, I've developed an even
+            Since then, I've developed an even
             stronger passion for creating web apps with clean code,
             simple-yet-effective design, and intuitive user experiences.
           </div>
           <div className="info">
             I'd love to join your team (or help you reach your business goals).
-            Please navigate to the Contact section to get in touch with me!{" "}
+            Please navigate to the Contact section to get in touch with me!
           </div>
 
           <div className="info">
