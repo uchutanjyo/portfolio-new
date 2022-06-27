@@ -89,7 +89,7 @@ const Projects = () => {
             <div className="project-info">
               <div className="project-actual-info">
                 <div>
-                  Simple single-page React/React Router app for a musician
+                  Simple single-page React app for a musician
                   website. Includes a built in music player and an album-viewer
                   modal which displays detailed album information when opened.
                   Mobile-responsive.
