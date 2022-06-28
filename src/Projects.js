@@ -14,7 +14,7 @@ const Projects = () => {
             <h2>"The Indispensable" (E-commerce Store)</h2>
             <div className="project-image">
               <div>
-                <a href="https://the-indispensable.netlify.app/">
+                <a href="https://the-indispensable.netlify.app/" target="_blank">
                   <img src={require("./assets/the-indispensable.png")} />
                 </a>
               </div>
@@ -35,28 +35,29 @@ const Projects = () => {
                   connected to a MySQL database. Deployed to Netlify and Heroku.
                 </div>
                 <div>
-                  <b> A few things are still a work in progress:</b>  <strike>cart total price</strike>, unique user shopping cart, user login/authentication,{" "}
+                  <b> A few things are still a work in progress:</b>  <strike>cart total price</strike>, unique user shopping cart, user login/authentication,
                   <strike>
                     fix delete (wrong item being deleted from cart)
                   </strike>
-                  ,{" "}
+                  ,
                   <strike>
                     optimizing app speed (currently, state is not updating
                     quickly enough when adding/deleting cart items)
                   </strike>
                   , refactor to make use of React components as much as
-                  possible,{" "}
+                  possible,
                   <strike>
                     add search-by-category functionality, 'Featured Product of
                     the day', make mobile responsive
-                  </strike>{" "}
+                  </strike>
                   + higher resolution responsive. All coming very soon!
                 </div>
               </div>
               <div className="project-viewcode">
                 <a
-                  href="https://github.com/uchutanjyo/e-commerce"
+                  href="https://github.com/uchutanjyo/e-commerce" 
                   title="view code"
+                  target="_blank"
                 >
                   view code
                   <img src={require("./styles/github.png")} />
@@ -64,7 +65,7 @@ const Projects = () => {
               </div>
             </div>
             <div className="project-tech">
-              {" "}
+              
               <img src={require("./assets/html.png")} />
               <img src={require("./assets/sass.png")} />
               <img src={require("./assets/react.png")} />
@@ -78,7 +79,7 @@ const Projects = () => {
             <h2>Personal Web Developer Blog Website</h2>
             <div className="project-image">
               <div>
-                {" "}
+                
                 <img  alt="under construction, coming soon!" />
               </div>
             </div>
@@ -90,12 +91,10 @@ const Projects = () => {
                 Personal blog application built with React. Includes custom pagination hook (using state and memoization) built for a previously completed coding assessment and reworked into original project.  Will be deployed ASAP.
               </div>
               <div className="project-viewcode">
-                <form action="http://mattengerer.ca">
-                  <a href="https://github.com/uchutanjyo/personal-blog" title="view code">
+                  <a href="https://github.com/uchutanjyo/personal-blog" title="view code" target="_blank">
                     view code
                     <img src={require("./styles/github.png")} />
                   </a>
-                </form>
               </div>
             </div>
             <div className="project-tech">
@@ -110,9 +109,9 @@ const Projects = () => {
             <h2>Experimental musician "Mite" - artist website</h2>
             <div className="project-image">
               <div>
-                {" "}
-                <a href="https://mitehole.netlify.app/">
-                  {" "}
+                
+                <a href="https://mitehole.netlify.app/" target="_blank">
+                  
                   <img src={require("./assets/mite.png")} />
                 </a>
               </div>
@@ -126,7 +125,7 @@ const Projects = () => {
                   Mobile-responsive.
                 </div>
                 <div>
-                  Still under construction:{" "}
+                  Still under construction:
                   <strike>
                     music player conversion from earlier Vanilla JS project to
                     React
@@ -138,6 +137,7 @@ const Projects = () => {
                 <a
                   href="https://github.com/uchutanjyo/mitehole"
                   title="view code"
+                  target="_blank"
                 >
                   view code
                   <img src={require("./styles/github.png")} />
@@ -156,9 +156,7 @@ const Projects = () => {
             <h2>Personal Portfolio (This Website)</h2>
             <div className="project-image">
               <div>
-                {" "}
-                <a href="https://mattengerer.ca/">
-                  {" "}
+                <a href="https://mattengerer.ca/" target="_blank">
                   <img src={require("./assets/portfolio.png")} />
                 </a>
               </div>
@@ -179,6 +177,7 @@ const Projects = () => {
                 <a
                   href="https://github.com/uchutanjyo/portfolio"
                   title="view code"
+                  target="_blank"
                 >
                   view code
                   <img src={require("./styles/github.png")} />
@@ -197,7 +196,6 @@ const Projects = () => {
             <h2>Meal Planner App</h2>
             <div className="project-image">
               <div>
-                {" "}
                 <img src={require("./assets/mealplanner.png")} />
               </div>
             </div>
@@ -215,12 +213,10 @@ const Projects = () => {
                 in local storage.
               </div>
               <div className="project-viewcode">
-                <form action="http://mitehole.bandcamp.com">
-                  <a href="https://github.com/uchutanjyo/" title="view code">
+                  <a href="https://github.com/uchutanjyo/" title="view code" target="_blank">
                     view code
                     <img src={require("./styles/github.png")} />
                   </a>
-                </form>
               </div>
             </div>
             <div className="project-tech">

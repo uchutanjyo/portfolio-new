@@ -48,19 +48,19 @@ const Home = () => {
         <div className="icons">
           {/* github icon */}
           <div className="icon-container">
-            <form action="https://github.com/uchutanjyo">
+            <form action="https://github.com/uchutanjyo" target="_blank">
               <button id="github"></button>
             </form>
           </div>
           {/* linkedin icon */}
           <div className="icon-container">
-            <form action="https://www.linkedin.com/in/matthew-engerer-143960238/">
+            <form action="https://www.linkedin.com/in/matthew-engerer-143960238/" target="_blank">
               <button id="linkedin"></button>
             </form>
           </div>
           {/* blogger icon */}
           <div className="icon-container">
-            <form action="https://matte-webdevelopment.blogspot.com/">
+            <form action="https://matte-webdevelopment.blogspot.com/" target="_blank">
               <button id="blogger"></button>
             </form>
           </div>
