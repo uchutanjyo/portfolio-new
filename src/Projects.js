@@ -35,8 +35,7 @@ const Projects = () => {
                   connected to a MySQL database. Deployed to Netlify and Heroku.
                 </div>
                 <div>
-                  <b> A few things are still a work in progress:</b> cart total
-                  price, unique user shopping cart, user login/authentication,{" "}
+                  <b> A few things are still a work in progress:</b>  <strike>cart total price</strike>, unique user shopping cart, user login/authentication,{" "}
                   <strike>
                     fix delete (wrong item being deleted from cart)
                   </strike>
@@ -75,6 +74,38 @@ const Projects = () => {
           </div>
 
           {/* 2nd project */}
+           <div className="project-container">
+            <h2>Personal Web Developer Blog Website</h2>
+            <div className="project-image">
+              <div>
+                {" "}
+                <img  alt="under construction, coming soon!" />
+              </div>
+            </div>
+            <div className="project-info">
+              <div className="project-actual-info">
+                <div>
+                  <b>*Currently NOT live, coming soon*</b>
+                </div>
+                Personal blog application built with React. Includes custom pagination hook (using state and memoization) built for a previously completed coding assessment and reworked into original project.  Will be deployed ASAP.
+              </div>
+              <div className="project-viewcode">
+                <form action="http://mattengerer.ca">
+                  <a href="https://github.com/uchutanjyo/personal-blog" title="view code">
+                    view code
+                    <img src={require("./styles/github.png")} />
+                  </a>
+                </form>
+              </div>
+            </div>
+            <div className="project-tech">
+            <img src={require("./assets/html.png")} />
+              <img src={require("./assets/sass.png")} />
+              <img src={require("./assets/react.png")} />
+            </div>
+          </div>
+
+          {/* 3rd project */}
           <div className="project-container">
             <h2>Experimental musician "Mite" - artist website</h2>
             <div className="project-image">
@@ -120,8 +151,8 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* 3rd project */}
-          <div className="project-container">
+           {/* 4th project */}
+           <div className="project-container">
             <h2>Personal Portfolio (This Website)</h2>
             <div className="project-image">
               <div>
@@ -161,8 +192,8 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* 4th project */}
-          <div className="project-container">
+  {/* 5th project */}
+  <div className="project-container">
             <h2>Meal Planner App</h2>
             <div className="project-image">
               <div>
@@ -198,6 +229,7 @@ const Projects = () => {
               <img src={require("./assets/javascript.png")} />
             </div>
           </div>
+
         </div>
       </div>
     </>
