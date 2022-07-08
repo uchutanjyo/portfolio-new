@@ -79,16 +79,18 @@ const Projects = () => {
             <h2>Personal Web Developer Blog Website</h2>
             <div className="project-image">
               <div>
-                
-                <img  alt="under construction, coming soon!" />
+              <a href="https://mattengererblog.netlify.app/" target="_blank">
+                <img src={require("./assets/blog.png")}/></a>
               </div>
             </div>
             <div className="project-info">
               <div className="project-actual-info">
                 <div>
-                  <b>*Currently NOT live, coming soon*</b>
                 </div>
-                Personal blog application built with React. Includes custom pagination hook (using state and memoization) built for a previously completed coding assessment and reworked into original project.  Will be deployed ASAP.
+                Personal blog application built with React. Includes custom pagination hook built for a previously completed coding assessment and reworked into original project. 
+                <br/><br/><br/>
+                <p><b>Coming soon:</b> backend API / database for storing and retrieving blog posts (rather than from local .JSON file)
+                </p>
               </div>
               <div className="project-viewcode">
                   <a href="https://github.com/uchutanjyo/personal-blog" title="view code" target="_blank">
