@@ -1,6 +1,11 @@
-import React from "react";
+import React, {useEffect} from "react";
+
 
 const Skills = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);  }, []);
+
   return (
     <>
       <div className="section">
@@ -9,20 +14,21 @@ const Skills = () => {
           <div className="underline"></div>
         </div>
         <div className="skills-info">
-          {" "}
+          
           <div>
-            {" "}
+            
             I'm calling myself a front-end developer for the sake of
             highlighting my main strength; however, my knowledge of back-end
-            technologies is growing every day (see my most recent project).
-          </div>
-          <div>
-            {" "}
-            Whether it's furthering my knowledge of the following technologies
+            technologies is growing every day (see my e-commerce project).
+            </div>
+            <div> Whether it's furthering my knowledge of the following technologies
             and tools or learning brand new ones, I'm always striving to learn
-            more. What's next on my list? Whichever tool is required for the
-            job!{" "}
-          </div>{" "}
+            more. 
+            </div>
+            <div> 
+              <u>Tools I'm currently learning:</u> Redux (toolkit, thunk), Material UI, GraphQL, Firebase/Firestore. Practising data structures & algorithms with JavaScript.
+              </div>
+       
         </div>
         <div className="skills-container">
           <div className="skill-container">
@@ -51,17 +57,17 @@ const Skills = () => {
             <div className="skill-title">Sass</div>
           </div>
           <div className="skill-container">
-            {" "}
+            
             <div className="skill-icon">
               <div>
                 <img src={require("./assets/react.png")} />
-              </div>{" "}
+              </div>
             </div>
             <div className="skill-title">React.js</div>
           </div>
 
           <div className="skill-container">
-            {" "}
+            
             <div className="skill-icon">
               <img src={require("./assets/nodejs.png")} />
             </div>
@@ -70,7 +76,7 @@ const Skills = () => {
           </div>
 
           <div className="skill-container">
-            {" "}
+            
             <div className="skill-icon">
               <img src={require("./assets/mysql.png")} />
             </div>
@@ -78,7 +84,7 @@ const Skills = () => {
             <div className="skill-title">Sequelize</div>
           </div>
           <div className="skill-container">
-            {" "}
+            
             <div className="skill-icon">
               <img src={require("./assets/git.png")} />
             </div>
@@ -86,13 +92,17 @@ const Skills = () => {
           </div>
 
           <div className="skill-container">
-            {" "}
+            
             <div className="skill-icon">
               <img src={require("./assets/question.png")} />
             </div>
             <div className="skill-title"></div>
           </div>
+
+      
+
         </div>
+    
       </div>
     </>
   );

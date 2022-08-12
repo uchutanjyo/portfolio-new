@@ -1,6 +1,10 @@
-import React from "react";
+import React, {useEffect} from "react";
 
 const Home = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);  }, []);
+
   return (
     <>
       <div className="section">
@@ -30,7 +34,7 @@ const Home = () => {
         <div className="home-info">
           <div className="info">
             I've been passionate about building web pages from an early age, but
-            only considered web development as a career more recently in life.
+            only considered software development as a career more recently in life.
             Since then, I've developed an even
             stronger passion for creating web apps with clean code,
             simple-yet-effective design, and intuitive user experiences.
