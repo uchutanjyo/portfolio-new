@@ -33,14 +33,15 @@ const Home = () => {
         </div>
         <div className="home-info">
           <div className="info">
-            I've been passionate about building web pages from an early age, but
+            I've loved building websites from an early age, but
             only considered software development as a career more recently in life.
             Since then, I've developed an even
             stronger passion for creating web apps with clean code,
             simple-yet-effective design, and intuitive user experiences.
           </div>
-          <div className="info">
-            I'd love to join your team (or help you reach your business goals).
+          <div className="info-with-links">
+            Currently volunteering part-time as a front-end developer for <a href="https://www.linkedin.com/company/empowered-futures/" target="_blank">Empowered Futures</a> and <a href="https://www.avoltacanada.com/" target="_blank">Avolta Inc.</a> 
+             I am looking to join a new team on a full-time or contract basis.
             Please navigate to the Contact section to get in touch with me!
           </div>
 

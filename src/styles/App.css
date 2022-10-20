@@ -11,7 +11,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   background: linear-gradient(-75deg, #030811, #0c182e, #1c2343, #080e2d);
   background-size: 400% 400%;
   -webkit-animation: gradient 20s ease infinite;
@@ -53,7 +53,7 @@ body {
   z-index: 20;
   padding-bottom: 15px;
   z-index: 3;
-  font-size: .7em;
+  font-size: 0.7em;
   border-bottom-left-radius: 5%;
   border-bottom-right-radius: 50%;
 }
@@ -88,8 +88,8 @@ body {
   width: 2em;
   height: 2em;
   background-color: #040a23;
-  margin: .4em;
-  padding: .8em;
+  margin: 0.4em;
+  padding: 0.8em;
   border-radius: 5%;
 }
 
@@ -110,8 +110,8 @@ body {
 }
 
 .nav-item img {
-  margin-bottom: .5em;
-  width: .8em;
+  margin-bottom: 0.5em;
+  width: 0.8em;
 }
 
 .background-title-1 {
@@ -151,7 +151,7 @@ body {
   margin-top: 2em;
   font-family: Poppins;
   letter-spacing: 5px;
-  margin-bottom: .2em;
+  margin-bottom: 0.2em;
   font-size: 2em;
 }
 
@@ -159,7 +159,7 @@ body {
   font-size: 1.1em;
   background-color: red;
   width: 5em;
-  height: .1em;
+  height: 0.1em;
   content: "";
 }
 
@@ -216,7 +216,7 @@ body {
   width: 23em;
   height: 8em;
   padding: 1em;
-  margin-top: .5em;
+  margin-top: 0.5em;
   margin-left: 5%;
   margin-bottom: 5%;
   background-color: rgba(85, 65, 104, 0.15);
@@ -260,6 +260,13 @@ body {
 .info img {
   margin-right: 2em;
   height: 1em;
+}
+
+.info-with-links {
+  margin-bottom: 1em;
+  font-size: 1.3em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .icons {
@@ -375,7 +382,7 @@ body {
   max-height: 8em;
   width: 100%;
   margin-top: -2em;
-  padding-bottom: .6em;
+  padding-bottom: 0.6em;
   background-color: rgba(85, 65, 104, 0.15);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -493,7 +500,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: .8em;
+  margin-top: 0.8em;
 }
 
 .skill-title {
@@ -501,8 +508,8 @@ body {
 }
 
 .skill-info {
-  margin-top: .5em;
-  margin-bottom: .5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   padding-left: 2em;
   padding-right: 2em;
 }
@@ -598,7 +605,7 @@ body {
     height: 4em;
     background-color: #040a23;
     margin-top: 0em;
-    padding: .4em;
+    padding: 0.4em;
     border-radius: 5%;
   }
   .nav-item img {
@@ -624,7 +631,7 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     width: 90vw;
-    margin-left: -.5em;
+    margin-left: -0.5em;
   }
   .section-header {
     display: -webkit-box;
@@ -641,7 +648,7 @@ body {
   }
   .header-info {
     width: 22em;
-    margin-left: -.5em;
+    margin-left: -0.5em;
   }
   .portrait {
     margin-bottom: 1em;

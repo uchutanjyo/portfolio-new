@@ -19,14 +19,14 @@ const Skills = () => {
             
             I'm calling myself a front-end developer for the sake of
             highlighting my main strength; however, my knowledge of back-end
-            technologies is growing every day (see my e-commerce project).
+            technologies is slowly growing (see my e-commerce project).
             </div>
             <div> Whether it's furthering my knowledge of the following technologies
             and tools or learning brand new ones, I'm always striving to learn
             more. 
             </div>
             <div> 
-              <u>Tools I'm currently learning:</u> Redux (toolkit, thunk), Material UI, GraphQL, Firebase/Firestore. Practising data structures & algorithms with JavaScript.
+              <u>Tools I'm currently learning:</u> Typescript, Next.js, Tailwind CSS, React Native, Redux, Material UI, GraphQL, Firebase/Firestore. Practising data structures & algorithms with JavaScript.
               </div>
        
         </div>

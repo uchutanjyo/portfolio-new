@@ -1,595 +1,587 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,300&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,300&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 
 $base-color: rgb(218, 218, 218);
 
 @mixin flexCenter($direction) {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: $direction
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: $direction;
 }
 
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Roboto Condensed',
-        sans-serif;
-    background: linear-gradient(-75deg, #030811, #0c182e, #1c2343, #080e2d);
-    background-size: 400% 400%;
-    animation: gradient 20s ease infinite;
-    color: $base-color
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto Condensed", sans-serif;
+  background: linear-gradient(-75deg, #030811, #0c182e, #1c2343, #080e2d);
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
+  color: $base-color;
 }
 
 @keyframes gradient {
-    0% {
-        background-position: 0% 75%;
-    }
+  0% {
+    background-position: 0% 75%;
+  }
 
-    50% {
-        background-position: 100% 50%;
-    }
+  50% {
+    background-position: 100% 50%;
+  }
 
-    100% {
-        background-position: 0% 75%;
-    }
+  100% {
+    background-position: 0% 75%;
+  }
 }
 
 .Nav {
-    background-color: #32438d;
-    left: 0;
-    top: 0;
-    position: fixed;
-    width: 9em;
-    height: 100vh;
-    z-index: 20;
-    padding-bottom: 15px;
-    z-index: 3;
-    font-size: .7em;
-    border-bottom-left-radius: 5%;
-    border-bottom-right-radius: 50%;
+  background-color: #32438d;
+  left: 0;
+  top: 0;
+  position: fixed;
+  width: 9em;
+  height: 100vh;
+  z-index: 20;
+  padding-bottom: 15px;
+  z-index: 3;
+  font-size: 0.7em;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 50%;
 }
 
 .Nav-links {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .Nav a {
-    @include flexCenter(column);
-    text-decoration: none;
-    color: rgb(218, 218, 218);
-    font-size: 2em;
-    width: 2em;
-    height: 2em;
-    background-color: #040a23;
-    margin: .4em;
-    padding: .8em;
-    border-radius: 5%;
+  @include flexCenter(column);
+  text-decoration: none;
+  color: rgb(218, 218, 218);
+  font-size: 2em;
+  width: 2em;
+  height: 2em;
+  background-color: #040a23;
+  margin: 0.4em;
+  padding: 0.8em;
+  border-radius: 5%;
 }
 
 .nav-item {
-    @include flexCenter(column);
-    img {
-        margin-bottom: .5em;
-        width: .8em;
-    }
+  @include flexCenter(column);
+  img {
+    margin-bottom: 0.5em;
+    width: 0.8em;
+  }
 }
 
 .background-title-1 {
-    position: fixed;
-    max-width: 8em;
-    min-height: 100vh;
-    left: 0;
-    bottom: 5;
-    background-size: cover;
-    z-index: 10;
-    opacity: 60%
+  position: fixed;
+  max-width: 8em;
+  min-height: 100vh;
+  left: 0;
+  bottom: 5;
+  background-size: cover;
+  z-index: 10;
+  opacity: 60%;
 }
 
 .section {
-    margin-top: 2em;
-    margin-bottom: 2em;
-    background-color: rgba(85, 65, 104, 0.1);
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    padding: 1em;
-    min-height: 85vh;
-    height: auto;
-    width: 50vw;
-    text-align: left;
-    border-radius: 2%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background-color: rgba(85, 65, 104, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 1em;
+  min-height: 85vh;
+  height: auto;
+  width: 50vw;
+  text-align: left;
+  border-radius: 2%;
 
-    h1 {
-        margin-top: 2em;
-        font-family: Poppins;
-        letter-spacing: 5px;
-        margin-bottom: .2em;
-        font-size: 2em
-    }
+  h1 {
+    margin-top: 2em;
+    font-family: Poppins;
+    letter-spacing: 5px;
+    margin-bottom: 0.2em;
+    font-size: 2em;
+  }
 }
 
 .underline {
-    font-size: 1.1em;
-    background-color: red;
-    width: 5em;
-    height: .1em;
-    content: "";
+  font-size: 1.1em;
+  background-color: red;
+  width: 5em;
+  height: 0.1em;
+  content: "";
 }
 
 .header {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .portrait {
-    height: 12.3em;
-    width: 9em;
-    border-radius: 50%;
-    background-color: rgba(85, 65, 104, 0.2);
-    @include flexCenter(column);
+  height: 12.3em;
+  width: 9em;
+  border-radius: 50%;
+  background-color: rgba(85, 65, 104, 0.2);
+  @include flexCenter(column);
 
-    img {
-        border-radius: 50%;
-        height: 96%;
-    }
+  img {
+    border-radius: 50%;
+    height: 96%;
+  }
 }
 
 .section-header {
-    margin-top: 2em;
-    display: flex;
-    flex-direction: row;
-    align-items: left;
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
 }
 
 .header-info {
-    width: 23em;
-    height: 8em;
-    padding: 1em;
-    margin-top: .5em;
-    margin-left: 5%;
-    margin-bottom: 5%;
-    background-color: rgba(85, 65, 104, 0.15);
+  width: 23em;
+  height: 8em;
+  padding: 1em;
+  margin-top: 0.5em;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  background-color: rgba(85, 65, 104, 0.15);
 }
 
 .info-section {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 1em;
-    font-size: 1.2em;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1em;
+  font-size: 1.2em;
 
-    img {
-        margin-right: 2em;
-        height: 1em
-    }
+  img {
+    margin-right: 2em;
+    height: 1em;
+  }
 }
 
 .home-info {
-    margin-top: 3em;
+  margin-top: 3em;
 }
 
 .info {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 
-    margin-bottom: 1em;
-    font-size: 1.3em;
-    padding-left: 1em;
-    padding-right: 1em;
+  margin-bottom: 1em;
+  font-size: 1.3em;
+  padding-left: 1em;
+  padding-right: 1em;
 
-    img {
-        margin-right: 2em;
-        height: 1em
-    }
+  img {
+    margin-right: 2em;
+    height: 1em;
+  }
+}
+
+.info-with-links {
+  margin-bottom: 1em;
+  font-size: 1.3em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 // bottom icons
 .icons {
-    @include flexCenter(row);
-    width: 100%;
-    margin-top: 3em;
-    display: flex;
-    a {
-        margin-right: 2em;
-    }
-    button:hover {
-        opacity: 0.7;
-        border-radius: 18%;
-    }
+  @include flexCenter(row);
+  width: 100%;
+  margin-top: 3em;
+  display: flex;
+  a {
+    margin-right: 2em;
+  }
+  button:hover {
+    opacity: 0.7;
+    border-radius: 18%;
+  }
 }
 
 #github {
-    background-image: url("github.png");
-    margin-right: 3em;
-    width: 2.4em;
-    height: 2.4em;
-    background-color: #283981;
-    content: "";
-    border: none;
-    outline-style: none;
-    cursor: pointer;
-    position: relative
+  background-image: url("github.png");
+  margin-right: 3em;
+  width: 2.4em;
+  height: 2.4em;
+  background-color: #283981;
+  content: "";
+  border: none;
+  outline-style: none;
+  cursor: pointer;
+  position: relative;
 }
 
 #linkedin {
-    background-image: url("linkedin.png");
-    width: 2.4em;
-    height: 2.4em;
-    background-color: #283981;
-    content: "";
-    border: none;
-    outline-style: none;
-    cursor: pointer;
-    position: relative
+  background-image: url("linkedin.png");
+  width: 2.4em;
+  height: 2.4em;
+  background-color: #283981;
+  content: "";
+  border: none;
+  outline-style: none;
+  cursor: pointer;
+  position: relative;
 }
 
 #twitter {
-    background-image: url("twitter.png");
-    width: 2.4em;
-    height: 2.4em;
-    background-color: #283981;
-    content: "";
-    border: none;
-    outline-style: none;
-    cursor: pointer;
-    position: relative;
+  background-image: url("twitter.png");
+  width: 2.4em;
+  height: 2.4em;
+  background-color: #283981;
+  content: "";
+  border: none;
+  outline-style: none;
+  cursor: pointer;
+  position: relative;
 }
 
 // Projects
 .project-container {
-    margin-top: 1em;
-    height: 98%;
-    width: 99.7%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgba(85, 65, 104, 0.1);
-    margin-bottom: 4em;
+  margin-top: 1em;
+  height: 98%;
+  width: 99.7%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(85, 65, 104, 0.1);
+  margin-bottom: 4em;
 }
 
 .project-image {
-    width: 99%;
-    height: 34em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: -3em;
+  width: 99%;
+  height: 34em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -3em;
 
-    img {
-        max-width: 100%;
-        height: auto;
-    }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 
-    img:hover {
-        opacity: 80%;
-        cursor: pointer;
-    }
+  img:hover {
+    opacity: 80%;
+    cursor: pointer;
+  }
 }
 
 .project-info {
-    font-size: 1.2em;
-    max-height: 8em;
-    width: 100%;
-    margin-top: -2em;
-    padding-bottom: .6em;
-    background-color: rgba(85, 65, 104, 0.15);
-    display: flex;
-    flex-direction: row;
-    font-size: 1.2em;
-    overflow: auto
+  font-size: 1.2em;
+  max-height: 8em;
+  width: 100%;
+  margin-top: -2em;
+  padding-bottom: 0.6em;
+  background-color: rgba(85, 65, 104, 0.15);
+  display: flex;
+  flex-direction: row;
+  font-size: 1.2em;
+  overflow: auto;
 }
 
 .project-actual-info {
-    display: flex;
-    max-width: 80%;
-    padding: 1em;
-    border-right: 1px dotted;
+  display: flex;
+  max-width: 80%;
+  padding: 1em;
+  border-right: 1px dotted;
 
-    div {
-        padding: 1em;
-    }
+  div {
+    padding: 1em;
+  }
 }
 
 .project-viewcode {
-    display: flex;
-    margin-top: 2em;
-    text-align: center;
+  display: flex;
+  margin-top: 2em;
+  text-align: center;
 
-    img {
-        padding-top: 1em;
-        padding-left: 3em;
-        padding-right: 3em;
-    }
+  img {
+    padding-top: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+  }
 
-    a {
-        color: White;
-        text-decoration: none;
+  a {
+    color: White;
+    text-decoration: none;
+  }
 
-    }
+  a:hover {
+    text-decoration: underline;
+  }
 
-    a:hover {
-        text-decoration: underline;
-    }
-
-    img:hover {
-        opacity: 90%
-    }
+  img:hover {
+    opacity: 90%;
+  }
 }
 
 .project-tech {
-    padding-top: 1em;
-    height: 3.5em;
-    width: 100%;
-    background-color: rgba(85, 65, 104, 0.1);
+  padding-top: 1em;
+  height: 3.5em;
+  width: 100%;
+  background-color: rgba(85, 65, 104, 0.1);
 
-    img {
-        margin: 1em;
-        width: 2em;
-    }
+  img {
+    margin: 1em;
+    width: 2em;
+  }
 }
 
 // Skills
 .skills-info {
-    margin-right: 1em;
-    margin-left: 1em;
-    font-size: 1.3em;
-    div {
-        margin-top: 1em;
-    }
+  margin-right: 1em;
+  margin-left: 1em;
+  font-size: 1.3em;
+  div {
+    margin-top: 1em;
+  }
 }
 
 .skills-container {
-    margin-top: 1em;
-    height: 98%;
-    width: 99.7%;
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    row-gap: 0em;
-    overflow: inherit
+  margin-top: 1em;
+  height: 98%;
+  width: 99.7%;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  row-gap: 0em;
+  overflow: inherit;
 }
 
 .skill-container {
-    width: 90%;
-    height: 8.5em;
-    margin: 1em;
+  width: 90%;
+  height: 8.5em;
+  margin: 1em;
 
-    background-color: rgba(85, 65, 104, 0.1);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-color: rgba(85, 65, 104, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .skill-icon {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: .8em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0.8em;
 }
 
 .skill-title {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 .skill-info {
-    margin-top: .5em;
-    margin-bottom: .5em;
-    padding-left: 2em;
-    padding-right: 2em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 // Contact
 
 .contact-info {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 .email {
-    color: rgb(255, 0, 0)
+  color: rgb(255, 0, 0);
 }
 
 .form-container {
-    padding: 1em;
-    font-size: 1.2em;
+  padding: 1em;
+  font-size: 1.2em;
 }
 
 .contact {
-    display: flex;
-    flex-direction: column;
-    margin-top: 2em;
-    width: 70%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+  width: 70%;
 
-    button {
-        font-size: 1.2em;
-        color: white;
-        width: 5em;
-        margin-top: 1em;
-        background-color: rgba(130, 34, 221, 0.1);
-        border-radius: 4%;
-    }
+  button {
+    font-size: 1.2em;
+    color: white;
+    width: 5em;
+    margin-top: 1em;
+    background-color: rgba(130, 34, 221, 0.1);
+    border-radius: 4%;
+  }
 
-    input {
-        margin-bottom: 1em
-    }
+  input {
+    margin-bottom: 1em;
+  }
 }
 
 #message {
-
-    height: 15em;
+  height: 15em;
 }
-
 
 .icon {
-    max-width: 1%;
-    text-align: center;
+  max-width: 1%;
+  text-align: center;
 }
-
 
 /* Button */
 .button {
-    min-width: 8em;
-    border-radius: 5%;
-    background-color: #32438d;
+  min-width: 8em;
+  border-radius: 5%;
+  background-color: #32438d;
 }
 
 .hidden {
-    display: hidden
+  display: hidden;
 }
 
 // Media queries
 // Smartphones
 @media screen and (max-width: 1060px) {
-    .Nav {
-        top: 0;
-        min-width: 100vw;
-        max-width: 100vw;
-        min-height: 10vh;
-        max-height: 8vh;
+  .Nav {
+    top: 0;
+    min-width: 100vw;
+    max-width: 100vw;
+    min-height: 10vh;
+    max-height: 8vh;
+  }
+
+  .Nav-links {
+    flex-direction: row;
+    margin-top: 0em;
+  }
+
+  .nav-item {
+    @include flexCenter(column);
+    width: 3em;
+    height: 4em;
+    background-color: #040a23;
+    margin-top: 0em;
+    padding: 0.4em;
+    border-radius: 5%;
+
+    img {
+      margin-top: 1em;
+      width: 1em;
     }
+  }
 
-    .Nav-links {
-        flex-direction: row;
-        margin-top: 0em;
+  .Nav a {
+    text-decoration: none;
+    color: rgb(218, 218, 218);
+    font-size: 1em;
+    margin: 1em;
+    border-right: 1px dotted rgb(255, 213, 213);
+  }
 
+  .section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90vw;
+    margin-left: -0.5em;
+  }
+
+  .section-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85vw;
+  }
+
+  .header-info {
+    width: 22em;
+    margin-left: -0.5em;
+  }
+
+  .portrait {
+    margin-bottom: 1em;
+  }
+
+  .projects-container {
+    width: 90vw;
+    margin-left: 2em;
+    margin-right: 1em;
+
+    button {
+      margin-left: -10em;
+      margin-top: 18em;
     }
+  }
 
-    .nav-item {
-        @include flexCenter(column);
-        width: 3em;
-        height: 4em;
-        background-color: #040a23;
-        margin-top: 0em;
-        padding: .4em;
-        border-radius: 5%;
+  .project-image {
+    height: 20em;
+  }
 
-        img {
-            margin-top: 1em;
-            width: 1em;
-        }
+  .project-info {
+    max-height: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding-left: 1.5em;
+  }
+
+  .project-actual-info {
+    border-right: none;
+  }
+
+  .project-viewcode {
+    margin-top: 5%;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dotted;
+    padding-bottom: 1em;
+    text-align: center;
+  }
+
+  .project-tech {
+    max-height: 5em;
+    width: 100%;
+    background-color: rgba(85, 65, 104, 0.1);
+    margin-top: 0em;
+
+    img {
+      margin: 1em;
+      width: 2em;
     }
-
-    .Nav a {
-        text-decoration: none;
-        color: rgb(218, 218, 218);
-        font-size: 1em;
-        margin: 1em;
-        border-right: 1px dotted rgb(255, 213, 213);
-    }
-
-    .section {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        width: 90vw;
-        margin-left: -.5em;
-    }
-
-    .section-header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 85vw;
-    }
-
-    .header-info {
-        width: 22em;
-        margin-left: -.5em;
-    }
-
-    .portrait {
-        margin-bottom: 1em;
-    }
-
-    .projects-container {
-        width: 90vw;
-        margin-left: 2em;
-        margin-right: 1em;
-
-        button {
-            margin-left: -10em;
-            margin-top: 18em;
-        }
-    }
-
-    .project-image {
-        height: 20em;
-    }
-
-    .project-info {
-        max-height: 100%;
-        text-align: left;
-        display: flex;
-        flex-direction: column;
-        width: 90%;
-        padding-left: 1.5em;
-    }
-
-    .project-actual-info {
-        border-right: none;
-
-
-
-    }
-
-    .project-viewcode {
-        margin-top: 5%;
-        max-width: 90%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: 1px dotted;
-        padding-bottom: 1em;
-        text-align: center;
-
-
-    }
-
-    .project-tech {
-        max-height: 5em;
-        width: 100%;
-        background-color: rgba(85, 65, 104, 0.1);
-        margin-top: 0em;
-
-        img {
-            margin: 1em;
-            width: 2em;
-        }
-    }
+  }
 }
 
 @media screen and (min-width: 540px) and (max-width: 1544px) {
-    .project-image {
-        max-width: 100%;
-        height: 25em;
-        padding-bottom: 2em;
-        padding-top: 2em;
+  .project-image {
+    max-width: 100%;
+    height: 25em;
+    padding-bottom: 2em;
+    padding-top: 2em;
 
-        img {
-            height: 20em;
-
-        }
+    img {
+      height: 20em;
     }
+  }
 }
 
 .project-actual-info {
-    flex-direction: column;
-    width: 100%;
-    font-size: 1em;
+  flex-direction: column;
+  width: 100%;
+  font-size: 1em;
 }
 
 @media all and (min-width: 900px) {
-    &.nav-item:hover {
-        opacity: 0.7;
+  &.nav-item:hover {
+    opacity: 0.7;
 
+    cursor: pointer;
+  }
 
-        cursor: pointer
-    }
-
-    .Nav a:hover {
-        opacity: 0.9;
-
-
-    }
+  .Nav a:hover {
+    opacity: 0.9;
+  }
 }
