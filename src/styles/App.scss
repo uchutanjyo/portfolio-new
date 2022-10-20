@@ -191,8 +191,8 @@ body {
     width: 100%;
     margin-top: 3em;
     display: flex;
-    button {
-        margin-right: 3em;
+    a {
+        margin-right: 2em;
     }
     button:hover {
         opacity: 0.7;
@@ -516,7 +516,6 @@ body {
     .project-image {
         height: 20em;
     }
-
 
     .project-info {
         max-height: 100%;

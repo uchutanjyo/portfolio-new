@@ -281,8 +281,8 @@ body {
   display: flex;
 }
 
-.icons button {
-  margin-right: 3em;
+.icons a {
+  margin-right: 2em;
 }
 
 .icons button:hover {
