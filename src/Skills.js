@@ -16,17 +16,11 @@ const Skills = () => {
         <div className="skills-info">
           
           <div>
-            
-            I'm calling myself a front-end developer for the sake of
-            highlighting my main strength; however, my knowledge of back-end
-            technologies is slowly growing (see my e-commerce project).
-            </div>
-            <div> Whether it's furthering my knowledge of the following technologies
-            and tools or learning brand new ones, I'm always striving to learn
-            more. 
+My web development skillset grows every day, both with languages I'm already familiar with and also as I branch out and learn brand new ones. Here are some of those that I use the most:
             </div>
             <div> 
-              <u>Tools I'm currently learning:</u> Typescript, Next.js, Tailwind CSS, React Native, Redux, Material UI, GraphQL, Firebase/Firestore. Practising data structures & algorithms with JavaScript.
+            </div>
+            <div> 
               </div>
        
         </div>
@@ -69,6 +63,14 @@ const Skills = () => {
           <div className="skill-container">
             
             <div className="skill-icon">
+              <img src={require("./assets/typescript.png")} />
+            </div>
+            <div className="skill-title">Typescript</div>
+          </div>
+
+          <div className="skill-container">
+            
+            <div className="skill-icon">
               <img src={require("./assets/nodejs.png")} />
             </div>
             <div className="skill-title">Node.js</div>
@@ -91,13 +93,7 @@ const Skills = () => {
             <div className="skill-title">Git</div>
           </div>
 
-          <div className="skill-container">
-            
-            <div className="skill-icon">
-              <img src={require("./assets/question.png")} />
-            </div>
-            <div className="skill-title"></div>
-          </div>
+
 
       
 

@@ -376,6 +376,11 @@ body {
   align-items: center;
 }
 
+.skill-icons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.8em;}
+
 .skill-icon {
   display: flex;
   flex-direction: column;
