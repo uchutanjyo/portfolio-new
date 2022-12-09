@@ -26,6 +26,9 @@ const Projects = () => {
             <div className="project-info">
               <div className="project-actual-info">
                 <div>
+                  <div><b>
+                   **NOTE: the backend of this project is no longer live due to the discontinuation of Heroku's free-tier hosting. It will be migrated elsewhere eventually!**
+                  </b></div>
                   An online shop selling essential items. Full-stack application
                   with shopping cart functionality. User can search for products
                   by name/category and add items to (currently COMMUNAL - yes,
@@ -62,6 +65,7 @@ const Projects = () => {
                   href="https://github.com/uchutanjyo/e-commerce" 
                   title="view code"
                   target="_blank"
+                  rel="noreferrer" 
                 >
                   view code
                   <img src={require("./styles/github.png")} />
@@ -83,7 +87,7 @@ const Projects = () => {
             <h2>Personal Web Developer Blog Website</h2>
             <div className="project-image">
               <div>
-              <a href="https://mattengererblog.netlify.app/" target="_blank">
+              <a href="https://mattengererblog.netlify.app/" target="_blank" rel="noreferrer" >
                 <img src={require("./assets/blog.png")}/></a>
               </div>
             </div>
@@ -111,12 +115,12 @@ const Projects = () => {
           </div>
 
           {/* 3rd project */}
-          <div className="project-container">
+          {/* <div className="project-container">
             <h2>Experimental musician "Mite" - artist website</h2>
             <div className="project-image">
               <div>
                 
-                <a href="https://mitehole.netlify.app/" target="_blank">
+                <a href="https://mitehole.netlify.app/" target="_blank" rel="noreferrer" >
                   
                   <img src={require("./assets/mite.png")} />
                 </a>
@@ -133,7 +137,7 @@ const Projects = () => {
                 <div>
                   Still under construction:
                   <strike>
-                    music player conversion from earlier Vanilla JS project to
+                    Music player conversion from earlier Vanilla JS project to
                     React
                   </strike>
                   , audio scrubbing, correct display of track progress.
@@ -155,14 +159,14 @@ const Projects = () => {
               <img src={require("./assets/css.png")} />
               <img src={require("./assets/react.png")} />
             </div>
-          </div>
+          </div> */}
 
            {/* 4th project */}
            <div className="project-container">
             <h2>Personal Portfolio (This Website)</h2>
             <div className="project-image">
               <div>
-                <a href="https://mattengerer.ca/" target="_blank">
+                <a href="https://mattengerer.ca/" target="_blank" rel="noreferrer" >
                   <img src={require("./assets/portfolio.png")} />
                 </a>
               </div>
@@ -219,7 +223,7 @@ const Projects = () => {
                 in local storage.
               </div>
               <div className="project-viewcode">
-                  <a href="https://github.com/uchutanjyo/" title="view code" target="_blank">
+                  <a href="https://github.com/uchutanjyo/" title="view code" target="_blank" rel="noreferrer" >
                     view code
                     <img src={require("./styles/github.png")} />
                   </a>

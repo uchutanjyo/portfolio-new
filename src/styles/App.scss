@@ -167,6 +167,14 @@ body {
 
 .home-info {
   margin-top: 3em;
+  a {
+    color: red;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+
+  }
 }
 
 .info {
@@ -182,6 +190,7 @@ body {
     margin-right: 2em;
     height: 1em;
   }
+
 }
 
 .info-with-links {

@@ -243,6 +243,15 @@ body {
   margin-top: 3em;
 }
 
+.home-info a {
+  color: red;
+  text-decoration: none;
+}
+
+.home-info a:hover {
+  text-decoration: underline;
+}
+
 .info {
   display: -webkit-box;
   display: -ms-flexbox;
