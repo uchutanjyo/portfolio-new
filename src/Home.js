@@ -33,16 +33,15 @@ const Home = () => {
         </div>
         <div className="home-info">
           <div className="info">
-            I enjoyed building websites from an early age, but only chose
+            I've enjoyed building websites from an early age, but only chose
             software development as a career more recently in life. Since I made this choice,
-            I've developed an even stronger passion for building easy-to-use web apps that also look good. The quality and scalability of 
-            my code is always improving, and I'm always expanding my arsenal of web technologies. :)
+            I've developed an even stronger passion for building easy-to-use web apps that also look good. I'm constantly pushing my limits with regards to what I can accomplish with code, while expanding the variety of technologies I'm able to utilize to get things done.
           </div>
           <br /> <br />
           <div className="info-with-links">
             My current roles include:
             <br /> <br />
-            <u><b>Software Manager - Front End</b></u> with{" "}
+            <u><b>Software Manager - Front End & Front End Developer</b></u> with{" "}
             <a
               href="https://www.avoltacanada.com/"
               target="_blank"
@@ -62,7 +61,7 @@ const Home = () => {
             </a>
             <br />
             <br /> 
-             I am looking to join a new team on a full-time or
+             I am looking to join a new software development team on a full-time or
             contract basis. Please navigate to the Contact section to get in
             touch with me! :)
           </div>
