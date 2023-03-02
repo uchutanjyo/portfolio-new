@@ -19,7 +19,7 @@ const Projects = () => {
             <div className="project-image">
               <div>
                 <a href="https://the-indispensable.netlify.app/" target="_blank">
-                  <img src={require("./assets/the-indispensable.png")} />
+                  <img src={require("./assets/the-indispensable2.png")} />
                 </a>
               </div>
             </div>
