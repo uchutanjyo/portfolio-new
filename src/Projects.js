@@ -14,7 +14,7 @@ const Projects = () => {
         </div>
         <div className="projects-container">
           {/* 1st project */}
-          <div className="project-container">
+          {/* <div className="project-container">
             <h2>"The Indispensable" (E-commerce Store)</h2>
             <div className="project-image">
               <div>
@@ -80,7 +80,7 @@ const Projects = () => {
               <img src={require("./assets/nodejs.png")} />
               <img src={require("./assets/mysql.png")} />
             </div>
-          </div>
+          </div> */}
 
           {/* 2nd project */}
            <div className="project-container">
@@ -201,8 +201,77 @@ const Projects = () => {
             </div>
           </div>
 
+      <div className="project-container">
+            <h2>"The Indispensable" (E-commerce Store)</h2>
+            <div className="project-image">
+              <div>
+                {/* <a href="https://the-indispensable.netlify.app/" target="_blank"> */}
+                  {/* <img src={require("./assets/the-indispensable2.png")} /> */}
+                  <div className="note"><b>
+                   **NOTE: the backend of this project is no longer live due to the discontinuation of Heroku's free-tier hosting.  I am in the process of migrating it to another hosting service.**
+                  </b></div>
+                {/* </a> */}
+              </div>
+            </div>
+            <div className="project-info">
+              <div className="project-actual-info">
+                <div>
+                
+                  An online shop selling essential items. Full-stack application
+                  with shopping cart functionality. User can search for products
+                  by name/category and add items to (currently COMMUNAL - yes,
+                  everyone in the world can share one..) shopping cart. Items
+                  can also be deleted from the shopping cart.
+                  <br />
+                  <br />
+                  This single-page app was created with React hooks, functional
+                  components, and React router. The front end makes Axios GET
+                  and POST requests to a REST API created with Express.js,
+                  connected to a MySQL database. Deployed to Netlify and Heroku.
+                </div>
+                <div>
+                  <b> A few things are still a work in progress:</b>  <strike>cart total price</strike>, unique user shopping cart, user login/authentication,
+                  <strike>
+                    fix delete (wrong item being deleted from cart)
+                  </strike>
+                  ,
+                  <strike>
+                    optimizing app speed (currently, state is not updating
+                    quickly enough when adding/deleting cart items)
+                  </strike>
+                  , refactor to make use of React components as much as
+                  possible,
+                  <strike>
+                    add search-by-category functionality, 'Featured Product of
+                    the day', make mobile responsive
+                  </strike>
+                  + higher resolution responsive. All coming very soon!
+                </div>
+              </div>
+              <div className="project-viewcode">
+                <a
+                  href="https://github.com/uchutanjyo/e-commerce" 
+                  title="view code"
+                  target="_blank"
+                  rel="noreferrer" 
+                >
+                  view code
+                  <img src={require("./styles/github.png")} />
+                </a>
+              </div>
+            </div>
+            <div className="project-tech">
+              
+              <img src={require("./assets/html.png")} />
+              <img src={require("./assets/sass.png")} />
+              <img src={require("./assets/react.png")} />
+              <img src={require("./assets/nodejs.png")} />
+              <img src={require("./assets/mysql.png")} />
+            </div>
+          </div> 
+
   {/* 5th project */}
-  <div className="project-container">
+  {/* <div className="project-container">
             <h2>Meal Planner App</h2>
             <div className="project-image">
               <div>
@@ -234,7 +303,7 @@ const Projects = () => {
               <img src={require("./assets/css.png")} />
               <img src={require("./assets/javascript.png")} />
             </div>
-          </div>
+          </div> */}
 
         </div>
       </div>
