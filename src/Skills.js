@@ -16,7 +16,7 @@ const Skills = () => {
         <div className="skills-info">
           
           <div>
-My web development skillset grows every day, both with languages I'm already familiar with and also as I branch out and learn brand new ones. Here are some of those that I use the most:
+My skills are constantly growing with the technologies I'm already familiar with - but I'm also trying to branch out and learn new ones. Here are some of those that I use the most:
             </div>
             <div> 
             </div>

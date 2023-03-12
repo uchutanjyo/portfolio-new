@@ -35,7 +35,7 @@ const Home = () => {
           <div className="info">
             I've enjoyed building websites from an early age, but only chose
             software development as a career more recently in life. Since I made this choice,
-            I've developed an even stronger passion for building easy-to-use web apps that also look good. I'm constantly pushing my limits with regards to what I can accomplish with code, while expanding the variety of technologies I'm able to utilize to get things done.
+            I've developed an even stronger passion for building easy-to-use web apps that also look good. 
           </div>
           <br /> <br />
           <div className="info-with-links">
