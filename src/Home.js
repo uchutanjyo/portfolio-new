@@ -61,7 +61,7 @@ const Home = () => {
             </a>
             <br />
             <br /> 
-             I am looking to join a new software development team on a full-time or
+             I am looking to join a new development team on a full-time or
             contract basis. Please navigate to the Contact section to get in
             touch with me! :)
           </div>
