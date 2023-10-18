@@ -13,6 +13,33 @@ const Projects = () => {
           <div className="underline"></div>
         </div>
         <div className="projects-container">
+        <div className="project-container">
+            <h2></h2>
+            <div className="project-image">
+              <div style={{textAlign: 'center'}}>
+              <a href="https://kuriputo.netlify.app/" target="_blank" rel="noreferrer" >
+                <img style={{maxWidth: '90%'}} src={require("./assets/kuriputo.png")}/></a>
+              </div>
+            </div>
+            <div className="project-info">
+              <div className="project-actual-info">
+                <div>
+                </div>
+A cryptocurrency tracking application built with React, Redux and styled-components.               <br/><br/><br/>
+              </div>
+              <div className="project-viewcode">
+                  <a href="https://github.com/uchutanjyo/crypto-app" title="view code" target="_blank">
+                    view code
+                    <img src={require("./styles/github.png")} />
+                  </a>
+              </div>
+            </div>
+            <div className="project-tech">
+            <img src={require("./assets/html.png")} />
+              <img src={require("./assets/redux.png")} />
+              <img src={require("./assets/react.png")} />
+            </div>
+          </div>
           {/* 1st project */}
           {/* <div className="project-container">
             <h2>"The Indispensable" (E-commerce Store)</h2>
@@ -83,7 +110,7 @@ const Projects = () => {
           </div> */}
 
           {/* 2nd project */}
-           <div className="project-container">
+           {/* <div className="project-container">
             <h2>Personal Web Developer Blog Website</h2>
             <div className="project-image">
               <div>
@@ -112,7 +139,7 @@ const Projects = () => {
               <img src={require("./assets/sass.png")} />
               <img src={require("./assets/react.png")} />
             </div>
-          </div>
+          </div> */}
 
           {/* 3rd project */}
           {/* <div className="project-container">
@@ -161,8 +188,7 @@ const Projects = () => {
             </div>
           </div> */}
 
-           {/* 4th project */}
-           <div className="project-container">
+           {/* <div className="project-container">
             <h2>Personal Portfolio (This Website)</h2>
             <div className="project-image">
               <div>
@@ -199,19 +225,19 @@ const Projects = () => {
               <img src={require("./assets/sass.png")} />
               <img src={require("./assets/react.png")} />
             </div>
-          </div>
+          </div> */}
 
-      <div className="project-container">
+      {/* <div className="project-container">
             <h2>"The Indispensable" (E-commerce Store)</h2>
             <div className="project-image">
-              <div>
+              <div> */}
                 {/* <a href="https://the-indispensable.netlify.app/" target="_blank"> */}
                   {/* <img src={require("./assets/the-indispensable2.png")} /> */}
-                  <div className="note"><b>
+                  {/* <div className="note"><b>
                    **NOTE: the backend of this project is no longer live due to the discontinuation of Heroku's free-tier hosting.  I am in the process of migrating it to another hosting service.**
                   </b></div>
                 {/* </a> */}
-              </div>
+              {/* </div>
             </div>
             <div className="project-info">
               <div className="project-actual-info">
@@ -267,8 +293,9 @@ const Projects = () => {
               <img src={require("./assets/react.png")} />
               <img src={require("./assets/nodejs.png")} />
               <img src={require("./assets/mysql.png")} />
-            </div>
-          </div> 
+            </div> 
+            </div> */}
+          
 
   {/* 5th project */}
   {/* <div className="project-container">

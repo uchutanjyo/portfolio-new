@@ -272,10 +272,12 @@ body {
 }
 
 .info-with-links {
+  padding-top: 1em;
   margin-bottom: 1em;
   font-size: 1.3em;
   padding-left: 1em;
   padding-right: 1em;
+  border: 1px dotted;
 }
 
 .icons {
@@ -363,7 +365,7 @@ body {
 
 .project-image {
   width: 99%;
-  height: 34em;
+  height: 38em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -374,6 +376,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: -3em;
+  margin-bottom: 1.7em;
 }
 
 .project-image img {
@@ -527,6 +530,10 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 0.8em;
+}
+
+.skill-icon img {
+  max-width: 4em;
 }
 
 .skill-title {

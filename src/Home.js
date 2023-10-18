@@ -27,21 +27,17 @@ const Home = () => {
             </div>
             <div className="info-section">
               <img src={require("./assets/projects.png")} /> Front-end web
-              developer specializing in React, Javascript and Typescript.
+              developer specializing in React, Redux, Javascript and Typescript.
             </div>
           </div>
         </div>
         <div className="home-info">
           <div className="info">
-            I've enjoyed building websites from an early age, but only chose
-            software development as a career more recently in life. Since I made this choice,
-            I've developed an even stronger passion for building easy-to-use web apps that also look good. 
-          </div>
-          <br /> <br />
+I love building web applications, but am becoming more and more interested in branching out into other areas of software engineering.          </div>
+          <br />
           <div className="info-with-links">
-            My current roles include:
-            <br /> <br />
-            <u><b>Software Manager - Front End & Front End Developer</b></u> with{" "}
+<b>I have worked on two Agile software engineering teams for over one year: </b>           <br /> <br />
+            <i><b>Software Manager - Front End & Front End Developer</b></i> with{" "}
             <a
               href="https://www.avoltacanada.com/"
               target="_blank"
@@ -51,7 +47,7 @@ const Home = () => {
             </a>
             <br />
             <br />
-            <u><b>Front End Developer & Tech Ops Admin</b></u> with    &nbsp;
+            <i><b>Front End Developer & Tech Ops Admin</b></i> with    &nbsp;
             <a
               href="https://www.linkedin.com/company/empowered-futures/"
               target="_blank"
@@ -61,11 +57,8 @@ const Home = () => {
             </a>
             <br />
             <br /> 
-             I am looking to join a new development team on a full-time or
-            contract basis. Please navigate to the Contact section to get in
-            touch with me! :)
+
           </div>
-          <br /> 
           <div className="info">
             When I'm not coding, I make music, improve my 日本語, and spend time
             outside as much as possible.

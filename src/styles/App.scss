@@ -194,10 +194,13 @@ body {
 }
 
 .info-with-links {
+  padding-top: 1em;
+
   margin-bottom: 1em;
   font-size: 1.3em;
   padding-left: 1em;
   padding-right: 1em;
+  border: 1px dotted
 }
 
 // bottom icons
@@ -266,11 +269,12 @@ body {
 
 .project-image {
   width: 99%;
-  height: 34em;
+  height: 38em;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: -3em;
+  margin-bottom: 1.7em;
 
   img {
     max-width: 100%;
@@ -393,6 +397,10 @@ body {
   flex-direction: column;
   align-items: center;
   margin-top: 0.8em;
+  img {
+    max-width: 4em;
+
+  }
 }
 
 .skill-title {

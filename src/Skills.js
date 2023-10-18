@@ -16,7 +16,7 @@ const Skills = () => {
         <div className="skills-info">
           
           <div>
-My skills are constantly growing with the technologies I'm already familiar with - but I'm also trying to branch out and learn new ones. Here are some of those that I use the most:
+Here are some of the technical tools I'm most familiar with:
             </div>
             <div> 
             </div>
@@ -46,9 +46,9 @@ My skills are constantly growing with the technologies I'm already familiar with
           </div>
           <div className="skill-container">
             <div className="skill-icon">
-              <img src={require("./assets/sass.png")} />
+              <img style={{maxWidth: '3em'}}src={require("./assets/redux.png")} />
             </div>
-            <div className="skill-title">Sass</div>
+            <div className="skill-title">Redux</div>
           </div>
           <div className="skill-container">
             
