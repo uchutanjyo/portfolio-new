@@ -19,30 +19,6 @@ body {
   color: #dadada;
 }
 
-@-webkit-keyframes gradient {
-  0% {
-    background-position: 0% 75%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 75%;
-  }
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 75%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 75%;
-  }
-}
-
 .Nav {
   background-color: #32438d;
   left: 0;
@@ -214,8 +190,9 @@ body {
 
 .header-info {
   width: 23em;
-  height: 8em;
+  height: 9em;
   padding: 1em;
+  padding-top: 1.3em;
   margin-top: 0.5em;
   margin-left: 5%;
   margin-bottom: 5%;
