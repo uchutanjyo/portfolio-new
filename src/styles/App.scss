@@ -476,13 +476,16 @@ body {
     top: 0;
     min-width: 100vw;
     max-width: 100vw;
-    min-height: 10vh;
+    min-height: 5vh;
     max-height: 8vh;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
   }
 
   .Nav-links {
     flex-direction: row;
-    margin-top: 0em;
+    justify-content: space-evenly;
+    margin-top: 1em;
   }
 
   .nav-item {
@@ -525,6 +528,7 @@ body {
 
   .header-info {
     width: 22em;
+    height: 10em;
     margin-left: -0.5em;
   }
 
@@ -602,6 +606,19 @@ body {
   width: 100%;
   font-size: 1em;
 }
+
+.skill-title {
+  font-size: 1em;
+}
+
+.skill-info {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+
 
 @media all and (min-width: 900px) {
   &.nav-item:hover {

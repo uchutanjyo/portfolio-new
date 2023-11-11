@@ -610,15 +610,20 @@ body {
     top: 0;
     min-width: 100vw;
     max-width: 100vw;
-    min-height: 10vh;
+    min-height: 5vh;
     max-height: 8vh;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
   }
   .Nav-links {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    margin-top: 0em;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin-top: 1em;
   }
   .nav-item {
     display: -webkit-box;
@@ -681,6 +686,7 @@ body {
   }
   .header-info {
     width: 22em;
+    height: 10em;
     margin-left: -0.5em;
   }
   .portrait {
@@ -761,6 +767,17 @@ body {
           flex-direction: column;
   width: 100%;
   font-size: 1em;
+}
+
+.skill-title {
+  font-size: 1em;
+}
+
+.skill-info {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 @media all and (min-width: 900px) {
