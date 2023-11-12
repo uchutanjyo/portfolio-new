@@ -12,7 +12,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   font-family: "Roboto Condensed", sans-serif;
-  background: linear-gradient(-75deg, #030811, #0c182e, #1c2343, #080e2d);
+  background: linear-gradient(-75deg, #232D3F, #0F0F0F, #0F0F0F, #0F0F0F);
   background-size: 400% 400%;
   -webkit-animation: gradient 20s ease infinite;
           animation: gradient 20s ease infinite;
@@ -20,9 +20,9 @@ body {
 }
 
 .Nav {
-  background-color: #32438d;
   left: 0;
   top: 0;
+  border-right: 0.3px solid;
   position: fixed;
   width: 9em;
   height: 100vh;
@@ -30,8 +30,6 @@ body {
   padding-bottom: 15px;
   z-index: 3;
   font-size: 0.7em;
-  border-bottom-left-radius: 5%;
-  border-bottom-right-radius: 50%;
 }
 
 .Nav-links {
@@ -584,6 +582,7 @@ body {
 
 @media screen and (max-width: 1060px) {
   .Nav {
+    background-color: #0F0F0F;
     top: 0;
     min-width: 100vw;
     max-width: 100vw;
@@ -755,6 +754,10 @@ body {
   margin-bottom: 0.5em;
   padding-left: 2em;
   padding-right: 2em;
+}
+
+.contact {
+  width: 90%;
 }
 
 @media all and (min-width: 900px) {
