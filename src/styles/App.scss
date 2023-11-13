@@ -151,6 +151,8 @@ body {
   margin-left: 5%;
   margin-bottom: 5%;
   background-color: rgba(85, 65, 104, 0.15);
+  
+
 }
 
 .info-section {
@@ -180,7 +182,6 @@ body {
 .info {
   display: flex;
   flex-direction: row;
-
   margin-bottom: 1em;
   font-size: 1.3em;
   padding-left: 1em;
@@ -516,8 +517,16 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 90vw;
+    width: 100vw;
     margin-left: -0.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    
+    padding: 1em;
+    min-height: 85vh;
+    height: auto;
+    text-align: left;
+    border-radius: 2%;
   }
 
   .section-header {
@@ -528,9 +537,9 @@ body {
   }
 
   .header-info {
-    width: 22em;
+    width: auto;
     height: 10em;
-    margin-left: -0.5em;
+    margin-left: 0em;
   }
 
   .portrait {
@@ -539,7 +548,7 @@ body {
 
   .projects-container {
     width: 90vw;
-    margin-left: 2em;
+    margin-left: 1em;
     margin-right: 1em;
 
     button {
@@ -557,7 +566,7 @@ body {
     text-align: left;
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: auto;
     padding-left: 1.5em;
   }
 
@@ -574,6 +583,8 @@ body {
     border: 1px dotted;
     padding-bottom: 1em;
     text-align: center;
+    padding-left: 1em;
+    margin-right:1.5em
   }
 
   .project-tech {
@@ -587,6 +598,18 @@ body {
       width: 2em;
     }
   }
+}
+
+.info {
+
+  margin-left:1em;
+
+}
+
+.skills-container {
+
+  width: 100%;
+
 }
 
 @media screen and (min-width: 540px) and (max-width: 1544px) {

@@ -87,7 +87,7 @@ I love building web applications, but am becoming more and more interested in br
           {/* linkedin icon */}
           <div className="icon-container">
             <a
-              href="https://www.linkedin.com/in/matthew-engerer-143960238/"
+              href="https://www.linkedin.com/in/matt-engerer/"
               target="_blank"
               alt="Linkedin"
             >
