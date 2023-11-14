@@ -16,9 +16,9 @@ const Contact = () => {
         <div className="form-container">
           <div className="contact-info">
             {" "}
-            Email me at{" "}
+            For all inquiries, please e-mail me at{" "}
             <a className="email" href="mailto:matt.engerer@aol.com">
-              matt.engerer@aol.com
+              matt.engerer@gmail.com
             </a>{" "}
             OR fill out the form below!{" "}
           </div>
